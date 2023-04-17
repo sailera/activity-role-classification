@@ -1,0 +1,626 @@
+annotation,concept:name,event:log:name,time:timestamp,object:name,object:status,action:name,action:status,org:actor:name,org:passive:name,resource:type,concept:name.1
+decide,A_Accepted,BPI Challenge 2017,2016-01-02 11:23:04.299000+00:00,,,"statechange,accept",,,,HUM,
+decide,A_Cancelled,BPI Challenge 2017,2016-02-02 07:00:20.734000+00:00,,,"statechange,cancel",,,,HUM,
+transform,A_Complete,BPI Challenge 2017,2016-01-02 11:30:28.633000+00:00,,,"statechange,complete",,,,HUM,
+manage,A_Concept,BPI Challenge 2017,2016-01-01 09:52:36.413000+00:00,a concept,,statechange,,,,HUM,
+create,A_Create Application,BPI Challenge 2017,2016-01-01 09:51:15.304000+00:00,application,,"create,create",,,,HUM,
+decide,A_Denied,BPI Challenge 2017,2016-01-07 13:29:49.671000+00:00,,,"statechange,deny",,,,HUM,
+transform,A_Incomplete,BPI Challenge 2017,2016-01-14 09:16:20.974000+00:00,,incomplete,statechange,,,,HUM,
+preserve,A_Pending,BPI Challenge 2017,2016-01-14 15:49:11.420000+00:00,,pending,statechange,,,,HUM,
+transform,A_Submitted,BPI Challenge 2017,2016-01-01 09:51:15.352000+00:00,,,"statechange,submit",,,,HUM,
+assess,A_Validating,BPI Challenge 2017,2016-01-13 13:10:55.973000+00:00,,,"statechange,validate",,,,HUM,
+decide,O_Accepted,BPI Challenge 2017,2016-01-14 15:49:11.416000+00:00,,,"statechange,accept",,,,HUM,
+decide,O_Cancelled,BPI Challenge 2017,2016-01-02 11:26:06.088000+00:00,,,"statechange,cancel",,,,HUM,
+create,O_Create Offer,BPI Challenge 2017,2016-01-02 11:29:03.994000+00:00,offer,,"create,create",,,,HUM,
+create,O_Created,BPI Challenge 2017,2016-01-02 11:29:05.354000+00:00,,,"statechange,create",,,,HUM,
+decide,O_Refused,BPI Challenge 2017,2016-01-07 13:29:49.710000+00:00,,,"statechange,refuse",,,,HUM,
+decide,O_Returned,BPI Challenge 2017,2016-01-13 13:11:03.569000+00:00,,,"statechange,return",,,,HUM,
+communicate,O_Sent (mail and online),BPI Challenge 2017,2016-01-02 11:30:28.606000+00:00,"mail,online",,"statechange,send",,,,HUM,
+move,O_Sent (online only),BPI Challenge 2017,2016-01-02 09:19:21.330000+00:00,online,,"statechange,send",,,,HUM,
+assess,W_Assess potential fraud,BPI Challenge 2017,2016-01-25 12:02:38.742000+00:00,potential fraud,,"create,assess",,,,HUM,
+communicate,W_Call after offers,BPI Challenge 2017,2016-01-02 11:30:28.629000+00:00,offer,,"create,call",,,,HUM,
+assess,W_Call incomplete files,BPI Challenge 2017,2016-01-14 09:16:20.970000+00:00,file,incomplete,"create,call",,,,HUM,
+transform,W_Complete application,BPI Challenge 2017,2016-01-01 09:52:36.403000+00:00,application,,"create,complete",,,,HUM,
+manage,W_Handle leads,BPI Challenge 2017,2016-01-01 09:51:15.774000+00:00,lead,,"create,handle",,,,HUM,
+combine,W_Personal Loan collection,BPI Challenge 2017,2016-07-04 17:41:39.912000+00:00,personal loan collection,,create,,,,HUM,
+transform,W_Shortened completion ,BPI Challenge 2017,2016-07-07 09:05:04.557000+00:00,shortened,,"create,completion",,,,HUM,
+assess,W_Validate application,BPI Challenge 2017,2016-01-13 13:10:55.144000+00:00,application,,"create,validate",,,,HUM,
+transform,abort external,BPI Challenge 2018,2015-07-20 15:50:51.139000+02:00,external,,abort,,,,SYS,
+decide,abort payment,BPI Challenge 2018,2015-12-16 16:43:22.109000+01:00,"application,payment,during payment",,abort,,,,HUM,
+decide,approve,BPI Challenge 2018,2016-09-01 10:01:32.650000+02:00,,,"objection,approve",,,,HUM,
+assess,begin admissibility check,BPI Challenge 2018,2016-09-01 09:59:52.531000+02:00,admissibility check,,"objection,begin",,,,HUM,
+transform,begin editing,BPI Challenge 2018,2015-06-10 11:16:29+02:00,,,edit,begin,,,HUM,
+transform,begin editing from refused,BPI Challenge 2018,2016-08-31 10:54:06.399000+02:00,,refused,"objection,begin edit",,,,HUM,
+transform,begin payment,BPI Challenge 2018,2015-12-16 11:55:49.972000+01:00,"application,payment,during payment",,begin,,,,HUM,
+transform,begin preparations,BPI Challenge 2018,2015-07-20 14:57:59.533000+02:00,preparation,,begin,,,,SYS,
+combine,calculate,BPI Challenge 2018,2015-10-31 05:10:35.230000+01:00,,,calculate,,,,HUM,
+combine,calculate protocol,BPI Challenge 2018,2018-01-18 10:54:36.330000+01:00,"protocol,berechnet,gepr ft",,"calculate,gesamtparzelle",,,,HUM,
+decide,cancel offline,BPI Challenge 2018,2015-08-17 11:20:53.943000+02:00,site,,cancel,,,,HUM,
+transform,change department,BPI Challenge 2018,2017-02-13 08:03:14+01:00,department,,change,,,,HUM,
+assess,check,BPI Challenge 2018,2015-06-24 09:31:34+02:00,,,check,,,,HUM,
+assess,check admissibility,BPI Challenge 2018,2016-09-01 10:01:09.997000+02:00,admissibility,,"objection,check",,,,HUM,
+transform,clear,BPI Challenge 2018,2016-11-04 11:09:53.449000+01:00,,,clear,,,,HUM,
+transform,correction GFM17,BPI Challenge 2018,2017-10-09 13:36:41.439000+02:00,gfm,,"declare,correction",,,,HUM,
+create,create,BPI Challenge 2018,2016-06-22 15:51:04.931000+02:00,,,"declare,create,create",,,,HUM,
+decide,decide,BPI Challenge 2018,2015-12-03 11:39:26.365000+01:00,,,decide,,,,HUM,
+destroy,discard,BPI Challenge 2018,2015-10-29 08:28:54+01:00,,,discard,,,,HUM,
+transform,finish editing,BPI Challenge 2018,2015-06-10 11:16:29+02:00,,,edit,finish,,,HUM,
+transform,finish payment,BPI Challenge 2018,2016-02-18 07:56:22.774000+01:00,"application,payment,during payment",,finish,,,,HUM,
+assess,finish pre-check,BPI Challenge 2018,2016-12-07 11:28:36.105000+01:00,pre check,,"declare,finish",,,,HUM,
+transform,finish preparations,BPI Challenge 2018,2015-07-20 14:57:59.531000+02:00,preparation,,finish,,,,SYS,
+transform,initialize,BPI Challenge 2018,2015-06-10 11:16:28+02:00,,,initialize,,,,HUM,
+create,insert document,BPI Challenge 2018,2015-06-15 13:01:38+02:00,document,,insert,,,,HUM,
+communicate,mail income,BPI Challenge 2018,2015-05-08 00:00:00+02:00,"application,mail income",,,,,,,
+decide,mail valid,BPI Challenge 2018,2015-05-08 00:00:00+02:00,"application,mail",valid,,,,,,
+transform,performed,BPI Challenge 2018,2015-07-24 21:10:08+02:00,,,perform,,,,HUM,
+transform,performed offline,BPI Challenge 2018,2015-10-22 11:36:25.462000+02:00,site,,perform,,,,HUM,
+manage,plan,BPI Challenge 2018,2015-07-10 15:59:06.364000+02:00,,,plan,,,,HUM,
+transform,prepare external,BPI Challenge 2018,2015-07-20 14:57:59.534000+02:00,external,,prepare,,,,SYS,
+transform,prepare offline,BPI Challenge 2018,2015-09-28 15:01:50.776000+02:00,site,,prepare,,,,HUM,
+decide,refuse,BPI Challenge 2018,2017-04-28 08:41:35.247000+02:00,,,"objection,refuse",,,,HUM,
+destroy,remove document,BPI Challenge 2018,2016-12-29 13:48:23.239000+01:00,document,,"change,remove,change",,department,,HUM,
+transform,restart editing,BPI Challenge 2018,2016-12-07 11:20:04.637000+01:00,,,"declare,edit",restart,,,HUM,
+decide,revoke approval,BPI Challenge 2018,2016-08-31 11:00:52.977000+02:00,approval,,"objection,revoke",,,,HUM,
+decide,revoke decision,BPI Challenge 2018,2015-12-09 21:00:00+01:00,"application,decision",,revoke,,,,HUM,
+transform,revoke withdrawal,BPI Challenge 2018,2017-05-24 10:56:48.135000+02:00,withdrawal,,"change,revoke",,,,HUM,
+preserve,save,BPI Challenge 2018,2015-06-15 13:01:25+02:00,,,save,,,,HUM,
+move,take original document,BPI Challenge 2018,2017-07-10 15:54:21.432000+02:00,original document,,take,,,,HUM,
+move,withdraw,BPI Challenge 2018,2017-05-24 10:56:43.127000+02:00,,,"change,withdraw",,,,HUM,
+separate,MER present,BPIC15_1,2014-05-19 00:00:00+02:00,"true,mer",,present,,,,HUM,04_BPT_010
+separate,MER present in supplement,BPIC15_1,2014-06-16 00:00:00+02:00,"mer,supplement",,"false,present",,,,HUM,01_HOOFD_193
+assess,MER required,BPIC15_1,2014-05-19 00:00:00+02:00,"true,mer",,require,,,,HUM,04_BPT_009
+assess,OLO messaging active,BPIC15_1,2014-04-14 00:00:00+02:00,olo messaging,,"false,active",,,,HUM,01_HOOFD_011
+assess,VVGB positive,BPIC15_1,2011-03-28 12:23:52+02:00,"true,vvgb",,positive,,,,HUM,10_UOV_210
+transform,WAW permit aspect,BPIC15_1,2010-11-30 16:51:22+01:00,waw permit aspect,,false,,,,HUM,01_HOOFD_130
+transform,WAW request permanently suspended,BPIC15_1,2011-04-12 16:08:46+02:00,waw request permanently,,"false,suspend",,,,HUM,01_HOOFD_160
+transform,activities regular procedure,BPIC15_1,2014-05-19 00:00:00+02:00,"uitgebreid,activity regular",,procedure,,,,HUM,04_BPT_020
+transform,appeal and preliminary injunction in system,BPIC15_1,2013-01-21 16:22:17+01:00,"true,appeal,preliminary injunction,system",,,,,,HUM,01_BB_636
+create,appeal logded,BPIC15_1,2011-07-08 13:34:12+02:00,appeal,,"false,logded",,,,HUM,01_BB_630
+transform,appeal subcase completed,BPIC15_1,2015-01-07 00:00:00+01:00,subcase,,"appeal,complete",,,,HUM,01_BB_670_2
+transform,appealed to higher court,BPIC15_1,2015-01-07 00:00:00+01:00,,,"false,appeal",,,higher court,HUM,01_BB_700
+transform,applicant is stakeholder,BPIC15_1,2014-09-02 00:00:00+02:00,"true,applicant,stakeholder",,,,,,HUM,03_GBH_005
+assess,article 33 applies,BPIC15_1,2012-09-05 16:17:51+02:00,"true,article",,apply,,,,HUM,11_AH_II_020
+assess,article 34  WABO applies,BPIC15_1,2014-05-20 00:00:00+02:00,article wabo,,"false,apply",,,,HUM,09_AH_I_010
+assess,article 35 applies,BPIC15_1,2011-08-18 14:29:15+02:00,article,,"false,apply",,,,HUM,11_AH_II_055
+communicate,ask stakeholders views,BPIC15_1,2014-05-20 00:00:00+02:00,stakeholder view,,"false,ask",,,,HUM,01_HOOFD_430
+assess,assessment of content completed,BPIC15_1,2014-05-20 00:00:00+02:00,assessment of content,,complete,,,,HUM,01_HOOFD_370
+assess,by law,BPIC15_1,2014-05-20 00:00:00+02:00,law,,false,,,,HUM,01_HOOFD_480
+combine,calculate provisional charges,BPIC15_1,2012-09-17 09:09:43+02:00,provisional charge,,"false,calculate",,,,HUM,16_LGSV_010
+decide,cancel BAG objects research,BPIC15_1,2011-08-23 11:54:02+02:00,bag object research,,cancel,,,,HUM,05_EIND_060
+transform,close case,BPIC15_1,2015-01-12 00:00:00+01:00,case,,close,,,,HUM,01_HOOFD_820
+transform,completed subcases content,BPIC15_1,2014-05-20 00:00:00+02:00,completed subcases content,,,,,,HUM,01_HOOFD_250_2
+communicate,contacting applicant,BPIC15_1,2014-09-22 00:00:00+02:00,applicant,,"false,contact",,,,HUM,01_HOOFD_410_0
+assess,contested decision affected,BPIC15_1,2011-05-13 11:24:23+02:00,contested decision,,"false,affect",,,,HUM,01_BB_730
+transform,continuation term to decision,BPIC15_1,2011-07-28 11:21:20+02:00,"termijn,continuation term,decision",,volledige,,,,HUM,07_OPS_070
+decide,continue or abort mutation BAG objects,BPIC15_1,2011-10-04 09:17:10+02:00,mutation bag object,,"continue,abort",,,,HUM,01_HOOFD_505
+manage,coordination of application,BPIC15_1,2014-05-20 00:00:00+02:00,application,,"false,coordination",,,,HUM,13_CRD_010
+create,copy decision permanent suspension to stakeholders,BPIC15_1,2014-10-02 00:00:00+02:00,decision permanent suspension,,copy,,,stakeholders,HUM,08_AWB45_090_1
+create,copy decision to extend procedure to stakeholders,BPIC15_1,2014-09-08 00:00:00+02:00,"decision,procedure",,"copy,extend",,,stakeholders,HUM,06_VD_060_1
+create,create continuation letter,BPIC15_1,2013-01-24 09:27:52+01:00,continuation letter,,"false,create",,,,HUM,07_OPS_080_0
+create,create coordination confirmation,BPIC15_1,2013-01-15 16:39:38+01:00,coordination confirmation,,"false,create",,,,HUM,13_CRD_030_0
+create,create cover letter draft decision,BPIC15_1,2014-10-29 00:00:00+01:00,"true,cover letter draft decision",,create,,,,HUM,10_UOV_050_0
+create,create cover letter extend procedure term,BPIC15_1,2014-07-09 00:00:00+02:00,cover letter extend procedure term,,"false,create",,,,HUM,03_VD_060_0
+create,create cover letter permanent suspension,BPIC15_1,2014-07-23 00:00:00+02:00,cover letter permanent suspension,,"false,create",,,,HUM,08_AWB45_090_0
+create,create decision no permit required,BPIC15_1,2013-09-19 00:00:00+02:00,decision no permit required,,create,,,,HUM,14_VRIJ_030_1
+create,create decision procedure term extension,BPIC15_1,2014-07-09 00:00:00+02:00,decision procedure term extension,,create,,,,HUM,06_VD_030_4
+create,create decision terminate on request,BPIC15_1,2010-12-07 11:22:14+01:00,"decision terminate,request",,create,,,,HUM,05_EIND_030_1
+create,create draft environtmental permit,BPIC15_1,2014-11-18 00:00:00+01:00,draft environtmental permit,,create,,,,HUM,01_HOOFD_440_1
+create,create forwarding copy,BPIC15_1,2013-01-04 08:46:38+01:00,"true,forwarding copy",,create,,,,HUM,02_DRZ_030_0
+create,create letter only notification required,BPIC15_1,2014-10-27 00:00:00+01:00,"letter,notification required",,"false,create",,,,HUM,14_VRIJ_020_0
+create,create letter requesting missing data,BPIC15_1,2014-05-27 00:00:00+02:00,"true,letter requesting missing data",,create,,,,HUM,08_AWB45_020_0
+create,create letter requesting updated plan,BPIC15_1,2014-12-03 00:00:00+01:00,"true,letter requesting updated plan",,create,,,,HUM,12_AP_020_0
+create,create message terminate request,BPIC15_1,2014-12-02 00:00:00+01:00,"true,message terminate request",,create,,,,HUM,05_EIND_030_0
+create,create monitoring case,BPIC15_1,2014-07-11 00:00:00+02:00,monitoring case,,create,,,,HUM,01_HOOFD_532
+create,create procedure confirmation,BPIC15_1,2014-04-14 00:00:00+02:00,procedure confirmation,,"false,create",,,,HUM,01_HOOFD_065_0
+create,create publication document,BPIC15_1,2014-04-14 00:00:00+02:00,publication document,,"false,create",,,,HUM,01_HOOFD_100_0
+create,create subcases completeness,BPIC15_1,2014-04-14 00:00:00+02:00,subcases completeness,,"false,create",,,,HUM,01_HOOFD_110_0
+create,create subcases content,BPIC15_1,2014-06-20 00:00:00+02:00,subcases content,,"false,create",,,,HUM,01_HOOFD_250_0
+create,create subcases present decision,BPIC15_1,2014-07-23 00:00:00+02:00,subcases present decision,,"false,create",,,,HUM,01_HOOFD_492_0
+create,create subcases submit draft decision,BPIC15_1,2013-04-05 11:28:33+02:00,subcases submit draft decision,,"false,create",,,,HUM,01_HOOFD_446_0
+create,create suspension competent authority,BPIC15_1,2013-01-24 09:27:10+01:00,suspension competent authority,,"false,create",,,,HUM,07_OPS_060_0
+create,creating cover letter decision,BPIC15_1,2014-06-04 00:00:00+02:00,"true,cover letter decision",,create,,,,HUM,01_HOOFD_510_0
+create,creating cover letter no permit required,BPIC15_1,2013-09-19 00:00:00+02:00,cover letter no permit required,,"false,create",,,,HUM,14_VRIJ_060_0
+create,creating decision permanently suspended,BPIC15_1,2014-07-23 00:00:00+02:00,decision permanently suspended,,create,,,,HUM,08_AWB45_070_1
+create,creating decision procedure term extension,BPIC15_1,2014-07-09 00:00:00+02:00,decision procedure term extension,,create,,,,HUM,06_VD_030_1
+create,creating decision suspension art. 33 WABO,BPIC15_1,2011-08-18 14:31:30+02:00,decision suspension art wabo,,create,,,,HUM,11_AH_II_040
+create,creating decision suspension art. 34 WABO,BPIC15_1,2012-06-04 16:24:58+02:00,decision suspension art wabo,,create,,,,HUM,11_AH_II_050
+create,creating environmental permit decision,BPIC15_1,2014-05-20 00:00:00+02:00,environmental permit decision,,create,,,,HUM,01_HOOFD_490_1
+manage,date continuation term to decision,BPIC15_1,2013-01-24 09:27:43+01:00,"continuation term,decision",,date,,,,HUM,07_OPS_071
+manage,date decision for inspection,BPIC15_1,2015-01-07 00:00:00+01:00,"date decision,inspection",,,,,,HUM,01_HOOFD_516
+manage,date draft decision for inspection,BPIC15_1,2014-11-06 00:00:00+01:00,"date draft decision,inspection",,,,,,HUM,10_UOV_030
+manage,date environmental permit irrevocable,BPIC15_1,2012-12-11 14:49:57+01:00,environmental permit,irrevocable,date,,,,HUM,09_AH_I_030
+manage,date for inspection MER,BPIC15_1,2014-01-23 00:00:00+01:00,"date,inspection mer",,,,,,HUM,01_HOOFD_080
+decide,decided on draft decision environmental permit,BPIC15_1,2011-03-04 12:34:39+01:00,"true,draft decision environmental permit",,decide,,,,HUM,01_HOOFD_451
+decide,decision date prior to decision,BPIC15_1,2014-05-20 00:00:00+02:00,"decision date,decision",,false,,,,HUM,01_HOOFD_490_2
+transform,decision extension procedure term irrevocable,BPIC15_1,2011-02-01 15:18:03+01:00,decision extension procedure term,irrevocable,,,,,HUM,06_VD_140
+preserve,decision keep permanently suspended,BPIC15_1,2014-07-23 00:00:00+02:00,"decision,permanently",,"keep,suspend",,,,HUM,08_AWB45_070_4
+transform,decision permanent suspension irrevocable,BPIC15_1,2011-06-27 13:22:47+02:00,decision permanent suspension,irrevocable,,,,,HUM,08_AWB45_150
+transform,decision permanently suspended,BPIC15_1,2011-01-12 15:23:27+01:00,decision permanently,,suspend,,,,HUM,08_AWB45_070_2
+transform,decision procedure term extension,BPIC15_1,2010-11-29 12:33:20+01:00,decision procedure term,,extension,,,,HUM,06_VD_040
+communicate,decision terminate on request,BPIC15_1,2010-12-07 11:22:30+01:00,"decision,request",,terminate,,,,HUM,05_EIND_040
+assess,detailed procedure applies,BPIC15_1,2011-01-10 12:49:19+01:00,detailed procedure,,apply,,,,HUM,01_HOOFD_195_1
+assess,determine cause for suspension article 34 WABO,BPIC15_1,2011-11-24 11:40:40+01:00,"cause,suspension article wabo",,determine,,,,HUM,09_AH_I_040
+destroy,dismiss under mandate,BPIC15_1,2011-06-28 16:42:18+02:00,"true,mandate",,dismiss,,,,HUM,01_HOOFD_446
+combine,enrich decision,BPIC15_1,2014-07-23 00:00:00+02:00,decision,,"false,enrich",,,,HUM,01_HOOFD_493
+combine,enrich draft decision,BPIC15_1,2014-10-29 00:00:00+01:00,draft decision,,"false,enrich",,,,HUM,01_HOOFD_455
+combine,enrich draft decision environmental permit,BPIC15_1,2012-10-12 11:01:35+02:00,draft decision environmental permit,,enrich,,,,HUM,01_HOOFD_456
+preserve,enter date advice on treatment of environmental permit,BPIC15_1,2014-10-30 00:00:00+01:00,"date advice,treatment,environmental permit",,enter,,,,HUM,01_HOOFD_450
+preserve,enter date decision permanent suspension,BPIC15_1,2014-07-23 11:03:49+02:00,date decision permanent suspension,,enter,,,,HUM,08_AWB45_070_3
+preserve,enter date decision procedure term extension,BPIC15_1,2014-07-09 16:07:59+02:00,date decision procedure term extension,,enter,,,,HUM,06_VD_030_3
+preserve,enter date decision suspension,BPIC15_1,2012-09-05 16:20:40+02:00,date decision suspension,,enter,,,,HUM,11_AH_II_036
+preserve,enter date draft decisionenvironmental permit,BPIC15_1,2014-10-30 00:00:00+01:00,date draft decisionenvironmental permit,,enter,,,,HUM,01_HOOFD_460
+preserve,enter date publication decision environmental permit,BPIC15_1,2014-07-29 00:00:00+02:00,date publication decision environmental permit,,enter,,,,HUM,01_HOOFD_530
+preserve,enter date termination request received,BPIC15_1,2014-11-06 00:00:00+01:00,date termination request,,"enter,receive",,,,HUM,05_EIND_020
+preserve,enter enddate of suspension,BPIC15_1,2013-05-06 00:00:00+02:00,enddate of suspension,,enter,,,,HUM,11_AH_II_140
+preserve,enter enddate suspension art. 33 WABO,BPIC15_1,2013-03-07 16:33:10+01:00,enddate suspension art wabo,,enter,,,,HUM,11_AH_II_070_3
+preserve,enter objection term permanent suspension,BPIC15_1,2011-01-12 15:23:41+01:00,objection term permanent suspension,,enter,,,,HUM,08_AWB45_080
+preserve,enter objectionterm,BPIC15_1,2010-11-29 12:55:44+01:00,objectionterm,,enter,,,,HUM,06_VD_050
+preserve,enter publication date draft decision,BPIC15_1,2015-01-06 00:00:00+01:00,publication date draft decision,,enter,,,,HUM,10_UOV_041b
+preserve,enter receipt of additional data,BPIC15_1,2014-06-13 00:00:00+02:00,receipt of additional data,,enter,,,,HUM,08_AWB45_040
+preserve,enter senddate acknowledgement,BPIC15_1,2014-04-14 09:37:17+02:00,senddate acknowledgement,,enter,,,,HUM,01_HOOFD_030_2
+preserve,enter senddate confirmation request,BPIC15_1,2010-12-07 00:00:00+01:00,senddate confirmation request,,enter,,,,HUM,05_EIND_050
+preserve,enter senddate continuation,BPIC15_1,2011-07-28 11:21:36+02:00,senddate continuation,,enter,,,,HUM,07_OPS_080_2
+preserve,enter senddate decision,BPIC15_1,2014-06-04 00:00:00+02:00,senddate decision,,enter,,,,HUM,01_HOOFD_510_4
+preserve,enter senddate decision environmental permit,BPIC15_1,2014-06-04 00:00:00+02:00,senddate decision environmental permit,,enter,,,,HUM,01_HOOFD_510_3
+preserve,enter senddate decision permanent suspension,BPIC15_1,2014-07-23 00:00:00+02:00,senddate decision permanent suspension,,enter,,,,HUM,08_AWB45_090_3
+preserve,enter senddate decision procedure term extension,BPIC15_1,2014-07-10 00:00:00+02:00,senddate decision procedure term extension,,enter,,,,HUM,06_VD_060_2
+preserve,enter senddate decision suspension,BPIC15_1,2011-06-21 00:00:00+02:00,senddate decision suspension,,enter,,,,HUM,11_AH_II_020_2
+preserve,enter senddate draft decision,BPIC15_1,2014-10-29 00:00:00+01:00,senddate draft decision,,enter,,,,HUM,10_UOV_050_3
+preserve,enter senddate letter no permit required,BPIC15_1,2013-09-19 00:00:00+02:00,senddate letter no permit required,,enter,,,,HUM,14_VRIJ_060_3
+preserve,enter senddate letter to competent authority,BPIC15_1,2010-11-22 00:00:00+01:00,senddate letter,,enter,,,competent authority,HUM,02_DRZ_020_2
+preserve,enter senddate letter to stakeholders,BPIC15_1,2010-11-22 00:00:00+01:00,senddate letter,,enter,,,stakeholders,HUM,02_DRZ_010_2
+preserve,enter senddate party permitted,BPIC15_1,2011-01-19 00:00:00+01:00,senddate party permitted,,enter,,,,HUM,01_HOOFD_410_2
+preserve,enter senddate procedure confirmation,BPIC15_1,2010-10-19 00:00:00+02:00,senddate procedure confirmation,,enter,,,,HUM,01_HOOFD_190_2
+preserve,enter senddate procedure term extension,BPIC15_1,2014-07-09 00:00:00+02:00,senddate procedure term extension,,enter,,,,HUM,06_VD_060_3
+preserve,enter senddate request termination,BPIC15_1,2014-09-18 09:37:02+02:00,senddate request termination,,enter,,,,HUM,05_EIND_030_2
+preserve,enter senddate retrieve missing data,BPIC15_1,2014-05-27 14:36:26+02:00,"senddate,missing data",,"enter,retrieve",,,,HUM,08_AWB45_020_2
+preserve,enter senddate suspension by competent authority,BPIC15_1,2011-05-30 00:00:00+02:00,senddate suspension,,enter,,competent authority,,HUM,01_HOOFD_580_2
+preserve,enter senddate updated plan,BPIC15_1,2014-12-03 14:49:18+01:00,senddate updated plan,,enter,,,,HUM,12_AP_020_2
+preserve,entering senddate draft decision environmental permit,BPIC15_1,2014-10-30 00:00:00+01:00,senddate draft decision environmental permit,,enter,,,,HUM,10_UOV_050_2
+transform,environmental permit irrevocable,BPIC15_1,2011-11-24 11:40:33+01:00,environmental permit,irrevocable,false,,,,HUM,09_AH_I_020
+transform,extend procedure term,BPIC15_1,2014-07-09 00:00:00+02:00,"true,procedure term",,extend,,,,HUM,06_VD_010
+transform,final VVGB applications,BPIC15_1,2011-03-28 12:23:20+02:00,"true,final vvgb application",,,,,,HUM,10_UOV_180
+assess,first or second phase,BPIC15_1,2014-09-09 00:00:00+02:00,"fase,first,second phase",,,,,,HUM,04_BPT_040
+assess,first phase affected,BPIC15_1,2014-09-09 00:00:00+02:00,first phase,,"false,affect",,,,HUM,04_BPT_050
+move,forward to the competent authority,BPIC15_1,2014-04-14 00:00:00+02:00,,,"false,forward",,,competent authority,HUM,02_DRZ_010
+move,forward transcript to stakeholders,BPIC15_1,2010-11-22 13:19:04+01:00,transcript,,forward,,,stakeholders,HUM,02_DRZ_010_1
+create,generate draft decision environmental permit,BPIC15_1,2014-11-18 00:00:00+01:00,draft decision environmental permit,,generate,,,,HUM,01_HOOFD_440_2
+create,generate publication document decision environmental permit,BPIC15_1,2010-12-06 10:03:59+01:00,publication document decision environmental permit,,generate,,,,HUM,01_HOOFD_520
+create,generating decision environmental permit,BPIC15_1,2014-05-20 00:00:00+02:00,decision environmental permit,,generate,,,,HUM,01_HOOFD_490_4
+create,generating decision no permit required,BPIC15_1,2013-09-19 00:00:00+02:00,decision no permit required,,generate,,,,HUM,14_VRIJ_030_4
+decide,ground for refusal after reassessment plan,BPIC15_1,2014-02-14 00:00:00+01:00,"true,ground,refusal,reassessment plan",,,,,,HUM,10_UOV_170
+decide,grounds for refusal,BPIC15_1,2014-05-20 00:00:00+02:00,ground,,"false,refusal",,,,HUM,01_HOOFD_380
+communicate,hearing about draft,BPIC15_1,2014-02-14 00:00:00+01:00,about draft,,"false,hear",,,,HUM,10_UOV_080
+communicate,inform BAG administrator,BPIC15_1,2014-09-02 00:00:00+02:00,true,,inform,,,bag administrator,HUM,01_HOOFD_050
+create,initiative competent authority,BPIC15_1,2014-12-02 00:00:00+01:00,initiative competent,,false,,authority,,HUM,05_EIND_011
+create,injunction made ??by court,BPIC15_1,2012-01-20 08:48:33+01:00,injunction,,"false,make",,court,,HUM,01_BB_740
+assess,investigate BAG objects,BPIC15_1,2011-08-19 15:34:19+02:00,bag object,,investigate,,,,HUM,01_HOOFD_055
+preserve,keep permanently suspended,BPIC15_1,2014-07-23 00:00:00+02:00,"true,permanently suspended",,keep,,,,HUM,08_AWB45_060
+communicate,message terminate request,BPIC15_1,2014-09-18 00:00:00+02:00,"message,request",,terminate,,,,HUM,05_EIND_030_1
+transform,mutation BAG carry objects,BPIC15_1,2011-08-23 11:54:35+02:00,mutation bag carry object,,,,,,HUM,01_HOOFD_805
+decide,new decision or reassessment,BPIC15_1,2012-01-20 08:48:42+01:00,"nieuwe beschikking,new decision",,reassessment,,,,HUM,01_BB_760
+decide,no permit needed or only notification needed,BPIC15_1,2014-10-27 00:00:00+01:00,"true,permit,notification",,"need,need",,,,HUM,14_VRIJ_010
+assess,no permit required for application,BPIC15_1,2011-03-07 09:37:24+01:00,"permit,application",,"false,require",,,,HUM,04_BPT_005
+move,objection decision no permit required received,BPIC15_1,2013-09-19 00:00:00+02:00,objection decision no permit required,,"false,receive",,,,HUM,14_VRIJ_110
+decide,objection lodged against decision,BPIC15_1,2015-01-12 00:00:00+01:00,"objection,decision",,"false,lodge",,,,HUM,01_BB_540
+transform,objection subcase completed,BPIC15_1,2012-01-20 08:47:36+01:00,objection subcase,,complete,,,,HUM,01_BB_560
+transform,objection to extension procedure term receptive,BPIC15_1,2011-02-01 15:17:52+01:00,extension procedure term receptive,,"false,objection",,,,HUM,06_VD_100
+move,objection to permanent suspension received,BPIC15_1,2011-06-27 13:22:47+02:00,"objection,permanent suspension",,"false,receive",,,,HUM,08_AWB45_110
+transform,objections and preliminary injunction in system,BPIC15_1,2012-06-15 10:41:26+02:00,"true,objection,preliminary injunction,system",,,,,,HUM,01_BB_546
+create,open draft decision for inspection,BPIC15_1,2014-10-29 00:00:00+01:00,"true,draft decision,inspection",,open,,,,HUM,10_UOV_010
+decide,partly permit,BPIC15_1,2014-09-22 00:00:00+02:00,partly,,"false,permit",,,,HUM,01_HOOFD_420
+decide,partly permit application,BPIC15_1,2011-01-21 11:29:56+01:00,application,,permit,,,,HUM,01_HOOFD_410_1
+move,perspective from GS or VROM received,BPIC15_1,2014-02-14 00:00:00+01:00,"perspective,g,vrom",,"false,receive",,,,HUM,10_UOV_070
+move,perspective on draft decision environmental permit received,BPIC15_1,2015-01-06 00:00:00+01:00,"perspective,draft decision environmental permit",,"false,receive",,,,HUM,10_UOV_060
+decide,perspective regarding draft founded,BPIC15_1,2014-02-14 00:00:00+01:00,perspective regarding draft,,"false,found",,,,HUM,10_UOV_120
+assess,phase activity no permit required,BPIC15_1,2013-09-19 00:00:00+02:00,phase activity no permit,,require,,,,HUM,14_VRIJ_055
+move,phase additional information received,BPIC15_1,2014-06-13 00:00:00+02:00,phase additional information,,receive,,,,HUM,08_AWB45_045
+preserve,phase advice known,BPIC15_1,2014-05-20 00:00:00+02:00,phase advice,,know,,,,HUM,01_HOOFD_375
+create,phase appeal lodged,BPIC15_1,2013-01-21 16:22:07+01:00,phase appeal,,lodge,,,,HUM,01_BB_635
+move,phase application received,BPIC15_1,2014-04-14 00:00:00+02:00,phase application,,receive,,,,HUM,01_HOOFD_015
+transform,phase application receptive,BPIC15_1,2014-05-20 00:00:00+02:00,phase application,,receptive,,,,HUM,01_HOOFD_195
+preserve,phase archived case,BPIC15_1,2015-01-12 00:00:00+01:00,phase archived case,,,,,,HUM,01_HOOFD_814
+communicate,phase asked additional information,BPIC15_1,2014-05-27 00:00:00+02:00,"phase,additional information",,ask,,,,HUM,08_AWB45_025
+manage,phase case handled,BPIC15_1,2015-01-12 00:00:00+01:00,phase case,,handle,,,,HUM,01_HOOFD_815
+transform,phase concept decision ready,BPIC15_1,2014-07-23 00:00:00+02:00,phase concept decision,ready,,,,,HUM,01_HOOFD_491a
+transform,phase concept draft decision ready,BPIC15_1,2014-11-18 00:00:00+01:00,phase concept draft decision,ready,,,,,HUM,01_HOOFD_445
+transform,phase decision irrevocable,BPIC15_1,2015-01-12 00:00:00+01:00,phase decision,irrevocable,,,,,HUM,01_BB_775
+transform,phase decision ready,BPIC15_1,2014-05-20 00:00:00+02:00,phase decision,ready,,,,,HUM,01_HOOFD_494a
+move,phase decision sent,BPIC15_1,2014-06-04 00:00:00+02:00,phase decision,,send,,,,HUM,01_HOOFD_515
+decide,phase decision suspended,BPIC15_1,2011-08-18 14:29:09+02:00,"true,phase decision",,suspend,,,,HUM,11_AH_II_035
+decide,phase decision taken,BPIC15_1,2014-06-04 00:00:00+02:00,phase decision,,take,,,,HUM,01_HOOFD_495
+decide,phase draft decision made,BPIC15_1,2014-10-29 00:00:00+01:00,phase draft decision,,make,,,,HUM,01_HOOFD_465
+transform,phase draft decision ready,BPIC15_1,2014-10-29 00:00:00+01:00,phase draft decision,ready,,,,,HUM,01_HOOFD_459
+move,phase draft decision sent,BPIC15_1,2014-10-29 00:00:00+01:00,phase draft decision,,send,,,,HUM,10_UOV_055
+move,phase forwarded to competent authority,BPIC15_1,2012-05-31 12:10:06+02:00,phase,,forward,,,competent authority,HUM,02_DRZ_035
+transform,phase objection filed,BPIC15_1,2012-06-15 10:41:14+02:00,phase objection,,file,,,,HUM,01_BB_545
+assess,phase only notification required,BPIC15_1,2014-10-27 00:00:00+01:00,"phase,notification",,require,,,,HUM,14_VRIJ_015
+decide,phase permanently suspended,BPIC15_1,2014-07-23 00:00:00+02:00,phase permanently,,suspend,,,,HUM,08_AWB45_075
+transform,phase perspective submitted,BPIC15_1,2014-02-14 00:00:00+01:00,phase perspective,,submit,,,,HUM,10_UOV_065
+decide,phase procedure aborted,BPIC15_1,2014-10-27 00:00:00+01:00,phase procedure,,abort,,,,HUM,14_VRIJ_035
+transform,phase procedure extended,BPIC15_1,2014-07-09 00:00:00+02:00,phase procedure,,extend,,,,HUM,06_VD_035
+decide,phase procedure prematurely terminated,BPIC15_1,2014-12-02 00:00:00+01:00,phase procedure prematurely,,terminate,,,,HUM,05_EIND_025
+preserve,phase procedure resumed,BPIC15_1,2013-05-06 00:00:00+02:00,phase procedure,,resume,,,,HUM,11_AH_II_145
+preserve,phase procedure term resumed,BPIC15_1,2013-01-24 09:27:44+01:00,phase procedure term,,resume,,,,HUM,07_OPS_075
+transform,phase procedure term suspended,BPIC15_1,2013-01-24 09:27:05+01:00,phase procedure term,,suspend,,,,HUM,07_OPS_055
+move,phase updated plan received,BPIC15_1,2015-01-07 00:00:00+01:00,phase updated plan,,receive,,,,HUM,12_AP_055
+communicate,phase updated plan requested,BPIC15_1,2014-12-04 00:00:00+01:00,phase updated plan,,request,,,,HUM,12_AP_025
+transform,phased application,BPIC15_1,2014-05-19 00:00:00+02:00,phased,,"false,application",,,,HUM,04_BPT_030
+transform,procedure change,BPIC15_1,2014-05-20 00:00:00+02:00,procedure,,"false,change",,,,HUM,01_HOOFD_330
+transform,procedure change after completeness,BPIC15_1,2014-06-24 00:00:00+02:00,"change,completeness",,"false,procedure",,,,HUM,01_HOOFD_196
+manage,publication date draft decision,BPIC15_1,2011-03-16 00:00:00+01:00,date draft decision,,publication,,,,HUM,10_UOV_035
+create,publish,BPIC15_1,2014-05-15 00:00:00+02:00,true,,publish,,,,HUM,01_HOOFD_090
+create,publish official draft decision,BPIC15_1,2011-03-04 12:36:06+01:00,official draft decision,,publish,,,,HUM,10_UOV_040
+move,reactive designation received,BPIC15_1,2013-06-26 00:00:00+02:00,reactive designation,,"false,receive",,,,HUM,01_HOOFD_498
+assess,read field phased application,BPIC15_1,2014-05-19 00:00:00+02:00,field phased application,,read,,,,HUM,04_BPT_029
+assess,read publication date field,BPIC15_1,2015-01-12 00:00:00+01:00,publication date field,,read,,,,HUM,01_HOOFD_809c
+separate,reason for suspension found,BPIC15_1,2011-07-28 11:20:48+02:00,"gezag,reason for suspension",,"initiatief bevoegd,find",,,,HUM,01_HOOFD_550
+move,receive additional information,BPIC15_1,2014-06-06 00:00:00+02:00,"true,additional information",,receive,,,,HUM,08_AWB45_030
+move,reception through OLO,BPIC15_1,2011-06-16 12:17:14+02:00,"true,olo",,reception,,,,HUM,01_HOOFD_020
+preserve,record date of decision environmental permit,BPIC15_1,2014-06-04 00:00:00+02:00,date of decision environmental permit,,record,,,,HUM,01_HOOFD_490_5
+preserve,record date of decision no permit required,BPIC15_1,2013-09-19 08:58:03+02:00,date of decision no permit required,,record,,,,HUM,14_VRIJ_030_5
+decide,refusal after suspension,BPIC15_1,2012-03-20 10:38:22+01:00,suspension,,"false,refusal",,,,HUM,11_AH_II_130
+manage,register date decision terminate on request,BPIC15_1,2010-12-07 00:00:00+01:00,"date decision terminate,request",,register,,,,HUM,05_EIND_030_2
+manage,register date environmental permit decision,BPIC15_1,2014-06-17 14:17:09+02:00,date environmental permit decision,,register,,,,HUM,01_HOOFD_490_3
+manage,register deadline,BPIC15_1,2014-11-28 00:00:00+01:00,deadline,,register,,,,HUM,01_HOOFD_810
+manage,register number of days extension period,BPIC15_1,2014-07-09 00:00:00+02:00,number of day extension period,,register,,,,HUM,06_VD_020
+manage,register objection and appeal periods,BPIC15_1,2014-06-04 00:00:00+02:00,"objection,appeal period",,register,,,,HUM,01_HOOFD_500
+manage,register receipt updated plan,BPIC15_1,2014-12-30 00:00:00+01:00,receipt updated plan,,register,,,,HUM,12_AP_050
+manage,register submission date request,BPIC15_1,2014-04-11 00:00:00+02:00,submission date request,,register,,,,HUM,01_HOOFD_010
+manage,register suspension by competent authority,BPIC15_1,2011-07-28 11:20:48+02:00,suspension,,register,,competent authority,,HUM,01_HOOFD_570
+manage,registration date publication,BPIC15_1,2014-04-14 00:00:00+02:00,registration date,,publication,,,,HUM,01_HOOFD_101
+manage,registrer date of publishing received request,BPIC15_1,2010-11-25 00:00:00+01:00,date of publishing received request,,registrer,,,,HUM,01_HOOFD_100
+assess,regular procedure applies,BPIC15_1,2010-11-30 16:53:04+01:00,regular procedure,,apply,,,,HUM,01_HOOFD_190_1
+transform,regular procedure without MER,BPIC15_1,2014-04-14 00:00:00+02:00,"true,regular procedure without mer",,,,,,HUM,04_BPT_005
+transform,request complete,BPIC15_1,2014-05-20 00:00:00+02:00,true,,request,complete,,,HUM,08_AWB45_005
+move,request for preliminary injunction received,BPIC15_1,2015-01-07 00:00:00+01:00,request for preliminary injunction,,"false,receive",,,,HUM,01_BB_640
+communicate,request further information,BPIC15_1,2011-06-28 16:37:15+02:00,further information,,"false,request",,,,HUM,15_NGV_010
+communicate,request to competent authority,BPIC15_1,2010-11-22 13:19:08+01:00,,,request,,,competent authority,HUM,02_DRZ_020_1
+communicate,request updated plan,BPIC15_1,2014-12-03 00:00:00+01:00,updated plan,,request,,,,HUM,12_AP_020_1
+communicate,request updated plan again,BPIC15_1,2012-03-06 13:43:27+01:00,updated plan,,"false,request",,,,HUM,12_AP_040
+transform,resume completeness subcases,BPIC15_1,2014-12-02 00:00:00+01:00,completeness subcases,,resume,,,,HUM,01_HOOFD_190_1
+combine,retrieve missing data,BPIC15_1,2014-05-27 00:00:00+02:00,missing data,,retrieve,,,,HUM,08_AWB45_020_1
+move,send confirmation receipt,BPIC15_1,2014-04-14 00:00:00+02:00,"true,confirmation receipt",,send,,,,HUM,01_HOOFD_020
+move,send confirmation receipt additional data,BPIC15_1,2014-06-16 00:00:00+02:00,confirmation receipt additional data,,"false,send",,,,HUM,08_AWB45_051_0
+move,send continuation letter,BPIC15_1,2011-07-28 11:21:36+02:00,continuation letter,,send,,,,HUM,07_OPS_080_1
+move,send decision suspension,BPIC15_1,2011-08-18 14:31:11+02:00,decision suspension,,send,,,,HUM,11_AH_II_020_1
+move,send design decision to stakeholders,BPIC15_1,2014-10-29 00:00:00+01:00,design decision,,send,,,stakeholders,HUM,10_UOV_050_1
+move,send letter in progress,BPIC15_1,2014-05-20 00:00:00+02:00,letter,,"false,send",in progress,,,HUM,01_HOOFD_200
+move,send letter receptive test not ok wait for report firedepartement,BPIC15_1,2013-03-14 10:36:35+01:00,"letter receptive test,report",,"send,wait",,firedepartement,,HUM,99_NOCODE_04
+move,send procedure confirmation,BPIC15_1,2010-11-30 16:50:30+01:00,procedure confirmation,,send,,,,HUM,01_HOOFD_065_1
+move,send send confirmation competent authority,BPIC15_1,2013-01-04 08:32:36+01:00,"true,confirmation competent authority",,send send,,,,HUM,02_DRZ_020_0
+move,send suspension by competent authority,BPIC15_1,2011-07-28 11:20:49+02:00,suspension,,send,,competent authority,,HUM,01_HOOFD_580_1
+transform,set decision phase decision no permit required sent,BPIC15_1,2013-09-19 00:00:00+02:00,decision phase decision no permit required,,"set,send",,,,HUM,14_VRIJ_060_2a
+transform,set decision phase decision permitting decided,BPIC15_1,2014-06-04 00:00:00+02:00,decision phase decision permitting,,"set,decide",,,,HUM,01_HOOFD_490_5a
+transform,set decision phase decision permitting published,BPIC15_1,2014-07-30 00:00:00+02:00,decision phase decision permitting,,"set,publish",,,,HUM,01_HOOFD_530a
+transform,set decision phase inspection of decision permitting,BPIC15_1,2015-01-07 00:00:00+01:00,"decision phase inspection,decision permitting",,set,,,,HUM,01_HOOFD_516a
+transform,set decision phase no permit required decided,BPIC15_1,2013-09-19 00:00:00+02:00,decision phase no permit required,,"set,decide",,,,HUM,14_VRIJ_030_5a
+transform,set decision phase suspension decided,BPIC15_1,2012-11-30 00:00:00+01:00,decision phase suspension,,"set,decide",,,,HUM,11_AH_II_040b
+transform,set decision phase suspension sent,BPIC15_1,2013-02-01 00:00:00+01:00,decision phase suspension,,"set,send",,,,HUM,11_AH_II_040c
+transform,set decision phase unlicensed irrevocable,BPIC15_1,2013-09-17 00:00:00+02:00,decision phase,unlicensed irrevocable,set,,,,HUM,14_VRIJ_150
+transform,set decision phase: draft decision for inspection,BPIC15_1,2014-11-06 00:00:00+01:00,"decision phase draft decision,inspection",,set,,,,HUM,10_UOV_030a
+transform,set decision phase: draft decision permitted sent,BPIC15_1,2014-10-30 00:00:00+01:00,decision phase draft decision permitted,,"set,send",,,,HUM,10_UOV_050_2a
+transform,set decision phase: suspension cancelled,BPIC15_1,2013-03-07 00:00:00+01:00,decision phase suspension,,"set,cancel",,,,HUM,11_AH_II_070_3a
+transform,set decision status,BPIC15_1,2014-05-20 00:00:00+02:00,decision status,,set,,,,HUM,01_HOOFD_490_1a
+transform,set phase,BPIC15_1,2012-11-22 11:12:54+01:00,phase,,set,,,,HUM,01_BB_755
+transform,set phase decision revoked,BPIC15_1,2012-03-15 16:40:20+01:00,phase decision revoked,,set,,,,HUM,01_BB_765
+transform,set phase: phase permitting irrevocable,BPIC15_1,2014-11-28 00:00:00+01:00,phase phase permitting,irrevocable,set,,,,HUM,01_BB_770
+transform,start WABOprocedure,BPIC15_1,2014-04-14 00:00:00+02:00,wab oprocedure,,start,,,,HUM,01_HOOFD_061
+transform,start date suspension competent authority,BPIC15_1,2013-01-24 09:27:05+01:00,date suspension,,start,,competent authority,,HUM,07_OPS_051
+transform,start decision phase decision permitting sent,BPIC15_1,2014-06-05 00:00:00+02:00,decision phase decision permitting,,"start,send",,,,HUM,01_HOOFD_510_2a
+transform,start decision phase extension granted,BPIC15_1,2014-07-09 00:00:00+02:00,decision phase extension,,"start,grant",,,,HUM,06_VD_030_3a
+transform,start decision phase permanent suspension sent,BPIC15_1,2014-07-23 00:00:00+02:00,decision phase permanent suspension,,"start,send",,,,HUM,08_AWB45_090_2a
+transform,start decision phase permanently suspended decided,BPIC15_1,2014-07-23 00:00:00+02:00,decision phase permanently suspended,,"start,decide",,,,HUM,08_AWB45_070_3a
+transform,start decisionphase draft decision - permitting decided,BPIC15_1,2014-10-30 00:00:00+01:00,decisionphase draft decision permitting,,"start,decide",,,,HUM,01_HOOFD_460a
+transform,start phased application,BPIC15_1,2014-09-09 00:00:00+02:00,phased application,,start,,,,HUM,04_BPT_041
+transform,stop all running subcases 2b,BPIC15_1,2015-01-12 00:00:00+01:00,all running subcases,,stop,,,,HUM,01_HOOFD_811
+transform,stop procedure after permanent suspension,BPIC15_1,2011-06-28 16:37:30+02:00,procedure after permanent suspension,,stop,,,,HUM,08_AWB45_180
+transform,stop process after terminate on request,BPIC15_1,2010-12-07 11:30:08+01:00,"process,terminate,request",,stop,,,,HUM,05_EIND_060
+transform,stop suspended completeness subcases,BPIC15_1,2014-12-11 00:00:00+01:00,suspended completeness subcases,,stop,,,,HUM,08_AWB45_052
+transform,subcase WAW completed,BPIC15_1,2011-04-12 16:08:28+02:00,subcase waw,,complete,,,,HUM,01_HOOFD_150
+transform,subcase art. 33 WABO completed,BPIC15_1,2011-08-18 14:32:07+02:00,subcase art wabo,,complete,,,,HUM,11_AH_II_100
+transform,subcase art. 34 WABO completed,BPIC15_1,2012-06-04 16:25:02+02:00,subcase art wabo,,complete,,,,HUM,11_AH_II_080_2
+transform,subcase designation GS completed,BPIC15_1,2013-06-26 00:00:00+02:00,subcase designation g,,complete,,,,HUM,01_HOOFD_496_2
+transform,subcase final VVGB completed,BPIC15_1,2011-03-28 12:23:23+02:00,subcase final vvgb,,complete,,,,HUM,10_UOV_200
+transform,subcase perspective complete,BPIC15_1,2014-02-14 00:00:00+01:00,subcase perspective,,complete,,,,HUM,10_UOV_100
+transform,subcases completed present decision,BPIC15_1,2012-07-11 12:03:48+02:00,"subcases,decision",,complete present,,,,HUM,01_HOOFD_492_2
+transform,subcases completeness completed,BPIC15_1,2014-08-15 00:00:00+02:00,subcases completeness,,complete,,,,HUM,01_HOOFD_110_2
+transform,subcases reassessment plan completed,BPIC15_1,2014-02-14 00:00:00+01:00,subcases reassessment plan,,complete,,,,HUM,10_UOV_160
+transform,subcases submit draft decision completed,BPIC15_1,2012-11-05 10:55:28+01:00,"subcases,draft decision",,"submit,complete",,,,HUM,01_HOOFD_446_2
+transform,submit decision,BPIC15_1,2014-05-20 00:00:00+02:00,decision,,"false,submit",,,,HUM,01_HOOFD_491
+transform,submit draft decision,BPIC15_1,2014-11-18 00:00:00+01:00,draft decision,,"false,submit",,,,HUM,01_HOOFD_446
+decide,suspend term,BPIC15_1,2014-08-11 00:00:00+02:00,term,,"false,suspend",,,,HUM,13_CRD_020
+decide,suspension ground applicable,BPIC15_1,2014-05-20 00:00:00+02:00,suspension ground,,"false,applicable",,,,HUM,11_AH_II_010
+decide,temporary permit,BPIC15_1,2011-06-16 12:17:22+02:00,temporary permit,,false,,,,HUM,01_HOOFD_055
+assess,term 14 or 26 weeks,BPIC15_1,2014-12-01 00:00:00+01:00,"term,week",,weken,,,,HUM,04_BPT_060
+transform,term for submitting updated plan,BPIC15_1,2014-12-03 00:00:00+01:00,"term,updated plan",,submit,,,,HUM,12_AP_011
+transform,term for supplying missing data,BPIC15_1,2014-05-27 00:00:00+02:00,"term,missing data",,supply,,,,HUM,08_AWB45_010
+transform,term perspective on draft decision,BPIC15_1,2011-03-04 12:35:21+01:00,"term perspective,draft decision",,,,,,HUM,10_UOV_020
+transform,term to perspective,BPIC15_1,2012-12-03 15:14:24+01:00,"term,perspective",,,,,,HUM,10_UOV_031
+transform,terminate on request,BPIC15_1,2014-12-02 00:00:00+01:00,"true,request",,terminate,,,,HUM,05_EIND_010
+transform,transcript decision environmental permit to stakeholders,BPIC15_1,2014-06-04 00:00:00+02:00,decision environmental permit,,transcript,,,stakeholders,HUM,01_HOOFD_510_1
+transform,treat appeal subcase,BPIC15_1,2014-05-16 00:00:00+02:00,appeal subcase,,treat,,,,HUM,01_BB_670
+transform,treat objection subcase,BPIC15_1,2012-01-20 08:47:34+01:00,objection subcase,,treat,,,,HUM,01_BB_550
+transform,treat subcase WAW,BPIC15_1,2011-04-12 16:08:24+02:00,subcase waw,,treat,,,,HUM,01_HOOFD_140
+transform,treat subcase final VVGB,BPIC15_1,2011-03-28 12:23:22+02:00,subcase final vvgb,,treat,,,,HUM,10_UOV_190
+transform,treat subcase perspective,BPIC15_1,2012-09-04 10:44:19+02:00,subcase perspective,,treat,,,,HUM,10_UOV_061
+transform,treat subcase suspension art. 33 WABO,BPIC15_1,2011-08-18 14:32:03+02:00,subcase suspension art wabo,,treat,,,,HUM,11_AH_II_070
+transform,treat subcase suspension art. 34 WABO,BPIC15_1,2012-06-04 16:25:00+02:00,subcase suspension art wabo,,treat,,,,HUM,11_AH_II_080_1
+transform,treat subcases completeness,BPIC15_1,2014-08-15 00:00:00+02:00,subcases completeness,,treat,,,,HUM,01_HOOFD_110_1
+transform,treat subcases content,BPIC15_1,2014-05-20 00:00:00+02:00,subcases content,,treat,,,,HUM,01_HOOFD_250_1
+transform,treat subcases present decision,BPIC15_1,2012-07-11 12:03:46+02:00,subcases present decision,,treat,,,,HUM,01_HOOFD_492_1
+transform,treat subcases reassessment plan,BPIC15_1,2014-02-14 00:00:00+01:00,subcases reassessment plan,,treat,,,,HUM,10_UOV_150
+transform,treat subcases submit draft decision,BPIC15_1,2012-11-05 10:55:26+01:00,"subcases,draft decision",,"treat,submit",,,,HUM,01_HOOFD_446_1
+transform,treating subcase designation GS,BPIC15_1,2013-06-26 00:00:00+02:00,subcase designation g,,treat,,,,HUM,01_HOOFD_496_1
+transform,updated plan after perspective,BPIC15_1,2014-02-14 00:00:00+01:00,"plan,perspective",,"false,update",,,,HUM,12_AP_UOV_010
+transform,updated plan after review,BPIC15_1,2014-09-22 00:00:00+02:00,"plan,review",,"false,update",,,,HUM,12_AP_010
+transform,updated plan received,BPIC15_1,2015-01-07 00:00:00+01:00,"true,updated plan",,receive,,,,HUM,12_AP_030
+decide,A_ACCEPTED,BPI_Challenge_2012,2011-10-01 11:42:43.308000+02:00,,,accept,,,,HUM,
+transform,A_ACTIVATED,BPI_Challenge_2012,2011-10-13 10:37:29.226000+02:00,,,activate,,,,HUM,
+decide,A_APPROVED,BPI_Challenge_2012,2011-10-13 10:37:29.226000+02:00,,,approve,,,,HUM,
+decide,A_CANCELLED,BPI_Challenge_2012,2011-10-01 13:02:11.068000+02:00,,,cancel,,,,HUM,
+decide,A_DECLINED,BPI_Challenge_2012,2011-10-01 08:11:46.420000+02:00,,,decline,,,,HUM,
+transform,A_FINALIZED,BPI_Challenge_2012,2011-10-01 11:45:09.243000+02:00,,,finalize,,,,HUM,
+transform,A_PARTLYSUBMITTED,BPI_Challenge_2012,2011-10-01 00:38:44.880000+02:00,,,partlysubmitted,,,,HUM,
+decide,A_PREACCEPTED,BPI_Challenge_2012,2011-10-01 00:39:37.906000+02:00,,,preaccepted,,,,HUM,
+manage,A_REGISTERED,BPI_Challenge_2012,2011-10-13 10:37:29.226000+02:00,,,register,,,,HUM,
+transform,A_SUBMITTED,BPI_Challenge_2012,2011-10-01 00:38:44.546000+02:00,,,submit,,,,HUM,
+decide,O_ACCEPTED,BPI_Challenge_2012,2011-10-13 10:37:29.226000+02:00,,,accept,,,,HUM,
+decide,O_CANCELLED,BPI_Challenge_2012,2011-10-03 16:56:17.731000+02:00,,,cancel,,,,HUM,
+create,O_CREATED,BPI_Challenge_2012,2011-10-01 11:45:11.197000+02:00,,,create,,,,HUM,
+decide,O_DECLINED,BPI_Challenge_2012,2011-10-13 11:05:24.620000+02:00,,,decline,,,,HUM,
+decide,O_SELECTED,BPI_Challenge_2012,2011-10-01 11:45:09.243000+02:00,,,select,,,,HUM,
+move,O_SENT,BPI_Challenge_2012,2011-10-01 11:45:11.380000+02:00,,,send,,,,HUM,
+move,O_SENT_BACK,BPI_Challenge_2012,2011-10-10 11:33:03.668000+02:00,,,send back,,,,HUM,
+manage,W_Afhandelen leads,BPI_Challenge_2012,2011-10-01 09:46:18.623000+02:00,afhandelen,,lead,,,,HUM,
+assess,W_Beoordelen fraude,BPI_Challenge_2012,2011-10-14 14:26:29.939000+02:00,fraude,,beoordelen,,,,HUM,
+transform,W_Completeren aanvraag,BPI_Challenge_2012,2011-10-01 00:39:38.875000+02:00,aanvraag,,completeren,,,,HUM,
+assess,W_Nabellen incomplete dossiers,BPI_Challenge_2012,2011-10-13 12:36:10.837000+02:00,dossier,incomplete,nabellen,,,,HUM,
+assess,W_Nabellen offertes,BPI_Challenge_2012,2011-10-01 11:45:11.554000+02:00,offertes,,nabellen,,,,HUM,
+assess,W_Valideren aanvraag,BPI_Challenge_2012,2011-10-10 11:33:04.560000+02:00,aanvraag,,valideren,,,,HUM,
+transform,W_Wijzigen contractgegevens,BPI_Challenge_2012,2012-02-15 12:29:26.299000+01:00,contractgegevens,,wijzigen,,,,HUM,
+decide,Accepted,BPI_Challenge_2013_closed_problems,2012-03-15 11:53:52+01:00,,,accept,,,,HUM,
+transform,Completed,BPI_Challenge_2013_closed_problems,2012-03-15 12:11:33+01:00,,,complete,,,,HUM,
+manage,Queued,BPI_Challenge_2013_closed_problems,2006-01-11 15:49:42+01:00,,,queue,,,,HUM,
+preserve,Unmatched,BPI_Challenge_2013_closed_problems,2009-09-14 11:37:50+02:00,,,unmatched,,,,HUM,
+transform,Block Purchase Order Item,BPI_Challenge_2019,2018-01-17 09:29:00+00:00,purchase order item,,block,,,,,
+decide,Cancel Goods Receipt,BPI_Challenge_2019,2018-02-08 10:19:00+00:00,good receipt,,cancel,,,,,
+decide,Cancel Invoice Receipt,BPI_Challenge_2019,2018-08-02 07:15:00+00:00,invoice receipt,,cancel,,,,,
+decide,Cancel Subsequent Invoice,BPI_Challenge_2019,2018-02-02 16:34:00+00:00,subsequent invoice,,cancel,,,,,
+transform,Change Approval for Purchase Order,BPI_Challenge_2019,2018-01-02 13:06:00+00:00,"approval,purchase order",,change,,,,,
+transform,Change Currency,BPI_Challenge_2019,2018-01-22 08:14:00+00:00,currency,,change,,,,,
+transform,Change Delivery Indicator,BPI_Challenge_2019,2019-01-17 10:59:00+00:00,delivery indicator,,change,,,,,
+transform,Change Final Invoice Indicator,BPI_Challenge_2019,2018-08-01 14:14:00+00:00,final invoice indicator,,change,,,,,
+transform,Change Price,BPI_Challenge_2019,2018-09-05 14:34:00+00:00,price,,change,,,,,
+transform,Change Quantity,BPI_Challenge_2019,2018-02-27 16:29:00+00:00,quantity,,change,,,,,
+transform,Change Rejection Indicator,BPI_Challenge_2019,2018-04-09 07:59:00+00:00,rejection indicator,,change,,,,,
+move,Change Storage Location,BPI_Challenge_2019,2018-01-18 15:44:00+00:00,storage location,,change,,,,,
+transform,Change payment term,BPI_Challenge_2019,2018-03-19 17:22:00+00:00,payment term,,change,,,,,
+transform,Clear Invoice,BPI_Challenge_2019,2018-03-29 13:06:00+00:00,invoice,,clear,,,,,
+create,Create Purchase Order Item,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,purchase order item,,create,,,,,
+create,Create Purchase Requisition Item,BPI_Challenge_2019,2018-01-02 23:00:00+00:00,purchase requisition item,,create,,,,,
+destroy,Delete Purchase Order Item,BPI_Challenge_2019,2018-01-29 08:18:00+00:00,purchase order item,,delete,,,,,
+transform,Reactivate Purchase Order Item,BPI_Challenge_2019,2018-01-11 12:09:00+00:00,purchase order item,,reactivate,,,,,
+move,Receive Order Confirmation,BPI_Challenge_2019,2018-01-02 10:04:00+00:00,order confirmation,,receive,,,,,
+preserve,Record Goods Receipt,BPI_Challenge_2019,2018-03-06 06:44:00+00:00,good receipt,,record,,,,,
+preserve,Record Invoice Receipt,BPI_Challenge_2019,2018-03-06 07:53:00+00:00,invoice receipt,,record,,,,,
+preserve,Record Service Entry Sheet,BPI_Challenge_2019,2018-01-16 12:09:00+00:00,service entry sheet,,record,,,,,
+preserve,Record Subsequent Invoice,BPI_Challenge_2019,2018-02-12 11:21:00+00:00,subsequent invoice,,record,,,,,
+transform,Release Purchase Order,BPI_Challenge_2019,2018-03-13 13:04:00+00:00,purchase order,,release,,,,,
+transform,Release Purchase Requisition,BPI_Challenge_2019,2018-11-29 07:56:00+00:00,purchase requisition,,release,,,,,
+destroy,Remove Payment Block,BPI_Challenge_2019,2018-02-21 12:55:00+00:00,payment block,,remove,,,,,
+preserve,SRM: Awaiting Approval,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,"srm,approval",,await,,,,,
+move,SRM: Change was Transmitted,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,srm change,,transmit,,,,,
+transform,SRM: Complete,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,srm,,complete,,,,,
+create,SRM: Created,BPI_Challenge_2019,2018-01-02 12:53:00+00:00,srm,,create,,,,,
+destroy,SRM: Deleted,BPI_Challenge_2019,2018-09-05 14:34:00+00:00,srm,,delete,,,,,
+transform,SRM: Document Completed,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,srm document,,complete,,,,,
+preserve,SRM: Held,BPI_Challenge_2019,2018-02-19 07:51:00+00:00,srm,,hold,,,,,
+move,SRM: In Transfer to Execution Syst.,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,srm,,transfer,,,execution syst,,
+transform,SRM: Incomplete,BPI_Challenge_2019,2018-02-19 07:51:00+00:00,srm,incomplete,,,,,,
+transform,SRM: Ordered,BPI_Challenge_2019,2018-01-02 13:53:00+00:00,srm,,order,,,,,
+transform,SRM: Transaction Completed,BPI_Challenge_2019,2018-01-29 08:18:00+00:00,srm transaction,,complete,,,,,
+transform,SRM: Transfer Failed (E.Sys.),BPI_Challenge_2019,2019-01-17 10:58:00+00:00,"srm transfer,e sys",failed,,,,,,
+create,Set Payment Block,BPI_Challenge_2019,2018-07-03 12:34:00+00:00,payment block,,set,,,,,
+transform,Update Order Confirmation,BPI_Challenge_2019,2018-01-09 09:05:00+00:00,order confirmation,,update,,,,,
+create,Vendor creates debit memo,BPI_Challenge_2019,2018-01-08 22:59:00+00:00,"vendor,debit memo",,create,,,,,
+create,Vendor creates invoice,BPI_Challenge_2019,2018-01-02 22:59:00+00:00,invoice,,create,,vendor,,HUM,
+move,Advance catheter,CCC19 - Log CSV,2018-10-11 23:20:48+00:00,"catheter,catheter",,"advance,install",,,,,
+separate,Anatomic identification,CCC19 - Log CSV,2018-10-11 23:02:23+00:00,"anatomic,structure",,"identification,locate",,,,,
+transform,Anesthetize,CCC19 - Log CSV,2018-10-11 23:14:25+00:00,venous,,"anesthetize,puncture",,,,,
+move,Blood return,CCC19 - Log CSV,2018-10-11 23:17:39+00:00,"blood,venous",,"return,puncture",,,,,
+assess,Check catheter position,CCC19 - Log CSV,2018-10-11 23:22:54+00:00,"catheter position,catheter",,"check,install",,,,,
+assess,Check flow and reflow,CCC19 - Log CSV,2018-10-11 23:22:22+00:00,"flow,reflow,catheter",,"check,install",,,,,
+assess,Check wire in long axis,CCC19 - Log CSV,2018-10-11 23:18:47+00:00,"wire,long axis,guidewire",,"check,install",,,,,
+assess,Check wire in short axis,CCC19 - Log CSV,2018-10-11 23:18:28+00:00,"wire,short axis,guidewire",,"check,install",,,,,
+transform,Clean puncture area,CCC19 - Log CSV,2018-10-11 23:07:25+00:00,"puncture area,operator,patient",,"clean,preparation",,,,,
+separate,Compression identification,CCC19 - Log CSV,2018-10-11 23:02:34+00:00,"compression,structure",,"identification,locate",,,,,
+transform,Cover probe,CCC19 - Log CSV,2018-10-11 23:09:43+00:00,"probe,ultrasound",,"cover,preparation",,,,,
+separate,Doppler identification,CCC19 - Log CSV,2019-01-17 01:11:04+00:00,"doppler,structure",,"identification,locate",,,,,
+transform,Drap puncture area,CCC19 - Log CSV,2018-10-11 23:08:14+00:00,"puncture area,operator,patient",,"drap,preparation",,,,,
+move,Drop probe,CCC19 - Log CSV,2018-10-11 23:17:45+00:00,"probe,guidewire",,"drop,install",,,,,
+transform,Gel in probe,CCC19 - Log CSV,2018-10-11 23:03:11+00:00,"gel,probe,ultrasound",,preparation,,,,,
+transform,Get in sterile clothes,CCC19 - Log CSV,2018-10-11 23:03:56+00:00,"sterile clothes,operator,patient",,"get,preparation",,,,,
+transform,Guidewire install,CCC19 - Log CSV,2018-10-11 23:18:04+00:00,"guidewire,guidewire",,"install,install",,,,,
+transform,Hand washing,CCC19 - Log CSV,2018-10-11 23:00:55+00:00,"hand,operator,patient",,"wash,preparation",,,,,
+move,Position patient,CCC19 - Log CSV,2018-10-12 00:01:43+00:00,"patient,structure",,"position,locate",,,,,
+move,Position probe,CCC19 - Log CSV,2018-10-12 00:12:57+00:00,"probe,ultrasound",,"position,preparation",,,,,
+transform,Prepare implements,CCC19 - Log CSV,2018-10-11 23:12:49+00:00,"implement,operator,patient",,"prepare,preparation",,,,,
+transform,Puncture,CCC19 - Log CSV,2018-10-11 23:15:20+00:00,venous,,"puncture,puncture",,,,,
+move,Put sterile gel,CCC19 - Log CSV,2018-10-11 23:11:32+00:00,"sterile gel,ultrasound",,"put,preparation",,,,,
+destroy,Remove guidewire,CCC19 - Log CSV,2018-10-11 23:22:15+00:00,"guidewire,catheter",,"remove,install",,,,,
+destroy,Remove syringe,CCC19 - Log CSV,2018-10-11 23:17:48+00:00,"syringe,guidewire",,"remove,install",,,,,
+destroy,Remove trocar,CCC19 - Log CSV,2018-10-11 23:19:02+00:00,"trocar,guidewire",,"remove,install",,,,,
+transform,Ultrasound configuration,CCC19 - Log CSV,2018-10-11 23:01:24+00:00,"ultrasound,ultrasound",,"configuration,preparation",,,,,
+transform,Widen pathway,CCC19 - Log CSV,2018-10-11 23:20:11+00:00,"pathway,catheter",,"widen,install",,,,,
+assess,Wire in good position,CCC19 - Log CSV,2019-01-17 01:14:10+00:00,"good position,guidewire",,"wire,install",,,,,
+decide,Acceptance of requests,CreditRequirement,2014-04-02 10:00:48+00:00,request,,acceptance,,,,HUM,
+assess,Collateral check,CreditRequirement,2014-04-02 14:40:06+00:00,collateral,,check,,,,HUM,
+combine,Collection of documents,CreditRequirement,2014-04-02 10:18:43+00:00,of document,,collection,,,,HUM,
+assess,Completeness check,CreditRequirement,2014-04-02 11:47:48+00:00,completeness,,check,,,,HUM,
+communicate,Credit committee,CreditRequirement,2014-04-02 15:35:35+00:00,credit committee,,,,,,HUM,
+assess,Credit worthiness check,CreditRequirement,2014-04-02 13:05:04+00:00,credit worthiness,,check,,,,HUM,
+manage,Register,CreditRequirement,2014-04-02 10:00:48+00:00,,,register,,,,HUM,
+assess,Requirements review,CreditRequirement,2014-04-02 16:17:41+00:00,requirement,,review,,,,HUM,
+transform,Affected CI Change,Detail_Incident_Activity,2013-05-21 22:43:20+00:00,affected ci change,,,,,,,
+assess,Analysis/Research,Detail_Incident_Activity,2013-05-24 08:42:34+00:00,research,,analysis,,,,,
+manage,Assignment,Detail_Incident_Activity,2013-04-11 12:09:37+00:00,,,assignment,,,,,
+communicate,Callback Request,Detail_Incident_Activity,2013-03-09 15:27:11+00:00,callback request,,,,,,,
+transform,Caused By CI,Detail_Incident_Activity,2013-04-11 13:51:18+00:00,ci,,cause,,,,,
+transform,Closed,Detail_Incident_Activity,2013-04-11 13:51:18+00:00,,closed,,,,,,
+communicate,Communication with customer,Detail_Incident_Activity,2013-08-15 13:45:21+00:00,,,communication,,,customer,HUM,
+communicate,Communication with vendor,Detail_Incident_Activity,2013-06-17 12:42:19+00:00,,,communication,,,vendor,,
+transform,Contact Change,Detail_Incident_Activity,2013-09-27 11:53:06+00:00,contact,,change,,,,,
+transform,Description Update,Detail_Incident_Activity,2013-03-27 08:57:33+00:00,description,,update,,,,,
+communicate,Dial-in,Detail_Incident_Activity,2014-01-20 09:58:09+00:00,,,dial,,,,,
+manage,External Vendor Assignment,Detail_Incident_Activity,2013-01-03 13:02:40+00:00,external vendor,,assignment,,,,,
+manage,External Vendor Reassignment,Detail_Incident_Activity,2013-09-24 14:57:13+00:00,external vendor,,reassignment,,,,,
+transform,External update,Detail_Incident_Activity,2013-08-10 14:05:57+00:00,external,,update,,,,,
+transform,Impact Change,Detail_Incident_Activity,2013-05-14 08:34:25+00:00,impact,,change,,,,,
+assess,Incident reproduction,Detail_Incident_Activity,2014-06-02 13:32:49+00:00,incident,,reproduction,,,,,
+communicate,Mail to Customer,Detail_Incident_Activity,2013-11-20 13:53:36+00:00,,,mail,,,customer,HUM,
+communicate,Notify By Change,Detail_Incident_Activity,2013-09-27 10:27:34+00:00,change,,notify,,,,,
+communicate,OO Response,Detail_Incident_Activity,2013-04-19 07:41:06+00:00,response,,,,,,,
+transform,Open,Detail_Incident_Activity,2013-01-15 14:36:33+00:00,,,open,,,,,
+transform,Operator Update,Detail_Incident_Activity,2013-04-11 12:09:37+00:00,operator,,update,,,,,
+preserve,Pending vendor,Detail_Incident_Activity,2013-11-11 17:02:35+00:00,vendor,pending,,,,,,
+transform,Problem Closure,Detail_Incident_Activity,2013-11-21 14:48:16+00:00,problem,,closure,,,,,
+transform,Problem Workaround,Detail_Incident_Activity,2013-04-22 11:49:03+00:00,problem,,workaround,,,,,
+transform,Quality Indicator,Detail_Incident_Activity,2013-12-07 12:31:37+00:00,quality indicator,,,,,,,
+transform,Quality Indicator Fixed,Detail_Incident_Activity,2013-12-30 10:40:12+00:00,quality indicator,,fix,,,,,
+assess,Quality Indicator Set,Detail_Incident_Activity,2013-11-20 10:30:30+00:00,quality indicator,,set,,,,,
+manage,Reassignment,Detail_Incident_Activity,2013-07-01 08:17:17+00:00,,,reassignment,,,,,
+transform,Referred,Detail_Incident_Activity,2013-06-25 13:00:03+00:00,,,refer,,,,,
+transform,Reopen,Detail_Incident_Activity,2014-01-28 14:07:44+00:00,,,reopen,,,,,
+transform,Resolved,Detail_Incident_Activity,2013-12-27 10:59:25+00:00,,,resolve,,,,,
+transform,Service Change,Detail_Incident_Activity,2013-05-21 22:43:22+00:00,service,,change,,,,,
+transform,Status Change,Detail_Incident_Activity,2013-04-23 08:22:09+00:00,status,,change,,,,,
+transform,Update,Detail_Incident_Activity,2013-03-06 11:15:43+00:00,,,update,,,,,
+transform,Update from customer,Detail_Incident_Activity,2013-04-11 13:41:30+00:00,,,update,,customer,,HUM,
+transform,Urgency Change,Detail_Incident_Activity,2013-05-14 08:34:25+00:00,urgency,,change,,,,,
+assess,Vendor Reference,Detail_Incident_Activity,2013-06-02 13:10:52+00:00,vendor,,reference,,,,,
+transform,Vendor Reference Change,Detail_Incident_Activity,2013-06-27 13:53:46+00:00,vendor reference,,change,,,,,
+communicate,alert stage 1,Detail_Incident_Activity,2013-11-28 08:51:09+00:00,stage,,alert,,,,,
+transform,BILLED,Hospital Billing - Event Log,2013-12-19 03:44:31+01:00,,,"bill,bill",,,,HUM,
+transform,CHANGE DIAGN,Hospital Billing - Event Log,2013-05-01 14:41:54+02:00,diagn,,change,in progress,,,,
+transform,CHANGE END,Hospital Billing - Event Log,2013-03-19 00:01:29+01:00,end,,change,in progress,,,HUM,
+transform,CODE ERROR,Hospital Billing - Event Log,2013-03-30 02:48:37+01:00,code error,,,,,,,
+transform,CODE NOK,Hospital Billing - Event Log,2014-01-03 04:38:20+01:00,code,,,nok,,,,
+transform,CODE OK,Hospital Billing - Event Log,2013-12-17 12:56:29+01:00,code,,ok,,,,,
+destroy,DELETE,Hospital Billing - Event Log,2013-10-19 12:37:05+02:00,,,delete,in progress,,,HUM,
+preserve,EMPTY,Hospital Billing - Event Log,2015-08-23 19:27:55+02:00,,,,,,,,
+transform,FIN,Hospital Billing - Event Log,2013-12-15 19:00:37+01:00,fin,closed,,,,,,
+move,JOIN-PAT,Hospital Billing - Event Log,2013-11-27 16:04:09+01:00,pat,,join,in progress,,,HUM,
+transform,MANUAL,Hospital Billing - Event Log,2013-10-27 13:08:50+01:00,,,release,,,,HUM,
+create,NEW,Hospital Billing - Event Log,2012-12-16 19:33:10+01:00,new,,,in progress,,,HUM,
+decide,REJECT,Hospital Billing - Event Log,2014-03-23 08:57:59+01:00,,billable,reject,,,,,
+transform,RELEASE,Hospital Billing - Event Log,2013-12-16 03:53:38+01:00,,,"release,release",,,,,
+transform,REOPEN,Hospital Billing - Event Log,2013-05-01 14:41:32+02:00,,,reopen,in progress,,,HUM,
+transform,SET STATUS,Hospital Billing - Event Log,2013-03-28 06:48:16+01:00,status,unbillable,set,,,,HUM,
+decide,STORNO,Hospital Billing - Event Log,2014-03-20 14:12:31+01:00,"storno,invoice",,reject,,,,HUM,
+transform,ZDBC_BEHAN,Hospital Billing - Event Log,2013-05-15 18:31:26+02:00,zdbc,,"behan,release",,,,,
+decide,Declaration APPROVED by ADMINISTRATION,PermitLog,2018-01-12 12:38:24+01:00,"st,declaration",,"step,approve",,administration,,HUM,
+decide,Declaration APPROVED by BUDGET OWNER,PermitLog,2018-03-15 14:21:30+01:00,"st,declaration",,"step,approve",,budget owner,,HUM,
+decide,Declaration APPROVED by PRE_APPROVER,PermitLog,2017-01-19 18:26:12+01:00,"st,declaration",,"step,approve",,pre approver,,HUM,
+decide,Declaration APPROVED by SUPERVISOR,PermitLog,2017-08-24 16:37:02+02:00,"st,declaration",,"step,approve",,supervisor,,HUM,
+decide,Declaration FINAL_APPROVED by DIRECTOR,PermitLog,2017-09-05 09:05:16+02:00,"st,declaration",,"step,approve",final,director,,HUM,
+decide,Declaration FINAL_APPROVED by SUPERVISOR,PermitLog,2017-04-07 13:40:17+02:00,"st,declaration",,"step,approve",final,supervisor,,HUM,
+decide,Declaration REJECTED by ADMINISTRATION,PermitLog,2018-02-27 10:11:27+01:00,"st,declaration",,"step,reject",,administration,,HUM,
+decide,Declaration REJECTED by BUDGET OWNER,PermitLog,2018-01-25 13:36:39+01:00,"st,declaration",,"step,reject",,budget owner,,HUM,
+decide,Declaration REJECTED by DIRECTOR,PermitLog,2017-04-18 07:21:14+02:00,"st,declaration",,"step,reject",,director,,HUM,
+decide,Declaration REJECTED by EMPLOYEE,PermitLog,2017-01-30 12:32:00+01:00,"st,declaration",,"step,reject",,employee,,HUM,
+decide,Declaration REJECTED by MISSING,PermitLog,2017-05-04 15:23:21+02:00,"st,declaration",,"step,reject",,missing,,,
+decide,Declaration REJECTED by PRE_APPROVER,PermitLog,2017-01-28 18:21:13+01:00,"st,declaration",,"step,reject",,pre approver,,HUM,
+decide,Declaration REJECTED by SUPERVISOR,PermitLog,2017-02-14 11:36:44+01:00,"st,declaration",,"step,reject",,supervisor,,HUM,
+preserve,Declaration SAVED by EMPLOYEE,PermitLog,2017-01-23 09:15:14+01:00,"st,declaration",,"step,save",,employee,,HUM,
+transform,Declaration SUBMITTED by EMPLOYEE,PermitLog,2017-04-07 13:38:14+02:00,"st,declaration",,"step,submit",,employee,,HUM,
+transform,End trip,PermitLog,2016-10-05 00:00:00+02:00,"rv travel permit,trip",,end,,,,HUM,
+transform,Payment Handled,PermitLog,2017-04-13 17:30:53+02:00,"fd declaration,payment",,handle,,,,HUM,
+decide,Permit APPROVED by ADMINISTRATION,PermitLog,2018-02-16 11:20:15+01:00,"st,permit",,"step,approve",,administration,,HUM,
+decide,Permit APPROVED by BUDGET OWNER,PermitLog,2018-05-14 08:59:54+02:00,"st,permit",,"step,approve",,budget owner,,HUM,
+decide,Permit APPROVED by PRE_APPROVER,PermitLog,2017-01-23 12:12:45+01:00,"st,permit",,"step,approve",,pre approver,,HUM,
+decide,Permit APPROVED by SUPERVISOR,PermitLog,2017-01-11 12:56:04+01:00,"st,permit",,"step,approve",,supervisor,,HUM,
+decide,Permit FINAL_APPROVED by DIRECTOR,PermitLog,2017-01-12 10:56:40+01:00,"st,permit",,"step,approve",final,director,,HUM,
+decide,Permit FINAL_APPROVED by SUPERVISOR,PermitLog,2017-04-06 13:32:28+02:00,"st,permit",,"step,approve",final,supervisor,,HUM,
+transform,Permit FOR_APPROVAL by ADMINISTRATION,PermitLog,2018-04-10 11:31:04+02:00,"st,permit",,"step,approval",,administration,,HUM,
+transform,Permit FOR_APPROVAL by SUPERVISOR,PermitLog,2018-12-27 05:15:55+01:00,"st,permit",,"step,approval",,supervisor,,HUM,
+decide,Permit REJECTED by ADMINISTRATION,PermitLog,2018-12-10 11:47:39+01:00,"st,permit",,"step,reject",,administration,,HUM,
+decide,Permit REJECTED by BUDGET OWNER,PermitLog,2018-01-09 12:04:59+01:00,"st,permit",,"step,reject",,budget owner,,HUM,
+decide,Permit REJECTED by DIRECTOR,PermitLog,2018-06-12 08:52:53+02:00,"st,permit",,"step,reject",,director,,HUM,
+decide,Permit REJECTED by EMPLOYEE,PermitLog,2017-01-11 09:33:17+01:00,"st,permit",,"step,reject",,employee,,HUM,
+decide,Permit REJECTED by MISSING,PermitLog,2017-07-28 10:10:18+02:00,"st,permit",,"step,reject",,missing,,,
+decide,Permit REJECTED by PRE_APPROVER,PermitLog,2017-05-04 16:04:34+02:00,"st,permit",,"step,reject",,pre approver,,HUM,
+decide,Permit REJECTED by SUPERVISOR,PermitLog,2017-01-10 14:30:31+01:00,"st,permit",,"step,reject",,supervisor,,HUM,
+preserve,Permit SAVED by EMPLOYEE,PermitLog,2017-02-07 16:08:44+01:00,"st,permit",,"step,save",,employee,,HUM,
+transform,Permit SUBMITTED by EMPLOYEE,PermitLog,2017-04-06 13:32:10+02:00,"st,permit",,"step,submit",,employee,,HUM,
+decide,Request For Payment APPROVED by ADMINISTRATION,PermitLog,2018-03-27 08:20:28+02:00,"st,request for payment",,"step,approve",,administration,,HUM,
+decide,Request For Payment APPROVED by BUDGET OWNER,PermitLog,2018-01-31 15:41:58+01:00,"st,request for payment",,"step,approve",,budget owner,,HUM,
+decide,Request For Payment APPROVED by PRE_APPROVER,PermitLog,2017-04-06 16:19:05+02:00,"st,request for payment",,"step,approve",,pre approver,,HUM,
+decide,Request For Payment APPROVED by SUPERVISOR,PermitLog,2017-03-14 20:51:27+01:00,"st,request for payment",,"step,approve",,supervisor,,HUM,
+decide,Request For Payment FINAL_APPROVED by DIRECTOR,PermitLog,2017-03-15 13:44:17+01:00,"st,request for payment",,"step,approve",final,director,,HUM,
+decide,Request For Payment FINAL_APPROVED by SUPERVISOR,PermitLog,2017-01-12 11:41:59+01:00,"st,request for payment",,"step,approve",final,supervisor,,HUM,
+decide,Request For Payment REJECTED by ADMINISTRATION,PermitLog,2018-03-11 19:30:31+01:00,"st,request for payment",,"step,reject",,administration,,HUM,
+decide,Request For Payment REJECTED by BUDGET OWNER,PermitLog,2018-02-08 16:28:17+01:00,"st,request for payment",,"step,reject",,budget owner,,HUM,
+decide,Request For Payment REJECTED by EMPLOYEE,PermitLog,2017-02-13 15:29:48+01:00,"st,request for payment",,"step,reject",,employee,,HUM,
+decide,Request For Payment REJECTED by MISSING,PermitLog,2017-01-12 11:53:07+01:00,"st,request for payment",,"step,reject",,missing,,,
+decide,Request For Payment REJECTED by PRE_APPROVER,PermitLog,2017-02-09 16:42:55+01:00,"st,request for payment",,"step,reject",,pre approver,,HUM,
+decide,Request For Payment REJECTED by SUPERVISOR,PermitLog,2017-05-22 09:33:14+02:00,"st,request for payment",,"step,reject",,supervisor,,HUM,
+preserve,Request For Payment SAVED by EMPLOYEE,PermitLog,2017-08-02 16:40:57+02:00,"st,request for payment",,"step,save",,employee,,HUM,
+transform,Request For Payment SUBMITTED by EMPLOYEE,PermitLog,2017-01-12 11:40:27+01:00,"st,request for payment",,"step,submit",,employee,,HUM,
+transform,Request Payment,PermitLog,2017-04-11 15:03:43+02:00,"fd declaration,payment",,request,,,,HUM,
+communicate,Send Reminder,PermitLog,2018-03-01 15:13:01+01:00,"rv travel permit,reminder",,send,,,,HUM,
+transform,Start trip,PermitLog,2016-10-05 00:00:00+02:00,"rv travel permit,trip",,start,,,,HUM,
+transform,Confirmation of receipt,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-11 13:45:40.276000+02:00,receipt,,confirmation,,,,HUM,
+assess,T02 Check confirmation of receipt,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-12 08:26:25.398000+02:00,confirmation of receipt,,check,,,,HUM,
+transform,T03 Adjust confirmation of receipt,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-11-24 15:36:51.302000+01:00,confirmation of receipt,,adjust,,,,HUM,
+assess,T04 Determine confirmation of receipt,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-18 15:53:53.778000+02:00,confirmation of receipt,,determine,,,,HUM,
+move,T05 Print and send confirmation of receipt,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-18 15:54:06.717000+02:00,confirmation of receipt,,print and send,,,,HUM,
+assess,T06 Determine necessity of stop advice,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-18 13:47:06.950000+02:00,necessity of stop advice,,determine,,,,HUM,
+create,T07-1 Draft intern advice aspect 1,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-11-30 10:53:50.203000+01:00,intern advice aspect,,draft,,,,,
+create,T07-2 Draft intern advice aspect 2,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-11-04 09:12:24.545000+01:00,intern advice aspect,,draft,,,,HUM,
+create,T07-3 Draft intern advice hold for aspect 3,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-10-27 09:20:34.229000+02:00,"intern advice,aspect",,"draft,hold",,,,HUM,
+create,T07-4 Draft internal advice to hold for type 4,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-11-04 09:07:41.168000+01:00,"internal advice,hold,type",,draft,,,,HUM,
+create,T07-5 Draft intern advice aspect 5,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-10-21 08:14:04.349000+02:00,intern advice aspect,,draft,,,,HUM,
+create,T08 Draft and send request for advice,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-11-30 10:54:46.581000+01:00,"request,advice",,draft and send,,,,HUM,
+transform,T09-1 Process or receive external advice from party 1,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-11-30 11:02:33.530000+01:00,external advice,,"process,receive",,party,,HUM,
+transform,T09-2 Process or receive external advice from party 2,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-06-15 12:04:01.557000+02:00,external advice,,"process,receive",,party,,HUM,
+transform,T09-3 Process or receive external advice from party 3,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-12-14 14:23:26.150000+01:00,external advice,,"process,receive",,party,,HUM,
+transform,T09-4 Process or receive external advice from party 4,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-11-03 10:07:03.160000+01:00,external advice,,"process,receive",,party,,HUM,
+assess,T10 Determine necessity to stop indication,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-18 13:48:15.357000+02:00,"necessity,stop indication",,determine,,,,HUM,
+create,T11 Create document X request unlicensed,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2012-01-18 09:48:33.680000+01:00,document x request,unlicensed,create,,,,HUM,
+assess,T12 Check document X request unlicensed,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2012-01-18 09:49:09.359000+01:00,document x request,unlicensed,check,,,,HUM,
+transform,T13 Adjust document X request unlicensed,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2010-12-03 13:08:59.345000+01:00,document x request,unlicensed,adjust,,,,HUM,
+assess,T14 Determine document X request unlicensed,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2012-01-18 09:49:44.753000+01:00,document x request,unlicensed,determine,,,,HUM,
+create,T15 Print document X request unlicensed,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2012-01-18 09:50:57.577000+01:00,document x request,unlicensed,print,,,,HUM,
+communicate,T16 Report reasons to hold request,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-25 14:23:58.755000+02:00,"reason,hold request",,report,,,,HUM,
+assess,T17 Check report Y to stop indication,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-25 14:24:22.922000+02:00,"report y,indication",,"check,stop",,,,HUM,
+transform,T18 Adjust report Y to stop indicition,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-04-06 14:15:31.424000+02:00,"report y,stop indicition",,adjust,,,,HUM,
+assess,T19 Determine report Y to stop indication,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-25 14:24:55.079000+02:00,"report y,indication",,"determine,stop",,,,HUM,
+create,T20 Print report Y to stop indication,"Receipt phase of an environmental permit application process (‘WABO’), CoSeLoG project",2011-10-25 14:25:10.989000+02:00,"report y,indication",,"print,stop",,,,HUM,
+transform,Add penalty,Road_Traffic_Fine_Management_Process,2007-03-16 00:00:00+01:00,penalty,,add,,,,HUM,
+transform,Appeal to Judge,Road_Traffic_Fine_Management_Process,2008-01-21 00:00:00+01:00,,,appeal,,,judge,HUM,
+create,Create Fine,Road_Traffic_Fine_Management_Process,2006-07-24 00:00:00+02:00,fine,,create,,,,HUM,
+create,Insert Date Appeal to Prefecture,Road_Traffic_Fine_Management_Process,2007-08-02 00:00:00+02:00,date appeal,,insert,,,prefecture,HUM,
+create,Insert Fine Notification,Road_Traffic_Fine_Management_Process,2007-01-15 00:00:00+01:00,fine notification,,insert,,,,HUM,
+communicate,Notify Result Appeal to Offender,Road_Traffic_Fine_Management_Process,2008-01-25 00:00:00+01:00,result appeal,,notify,,,offender,HUM,
+transform,Payment,Road_Traffic_Fine_Management_Process,2008-09-09 00:00:00+02:00,payment,,,,,,HUM,
+move,Receive Result Appeal from Prefecture,Road_Traffic_Fine_Management_Process,2008-01-22 00:00:00+01:00,result appeal,,receive,,prefecture,,HUM,
+move,Send Appeal to Prefecture,Road_Traffic_Fine_Management_Process,2007-09-24 00:00:00+02:00,appeal,,send,,,prefecture,HUM,
+move,Send Fine,Road_Traffic_Fine_Management_Process,2006-12-05 00:00:00+01:00,fine,,send,,,,HUM,
+move,Send for Credit Collection,Road_Traffic_Fine_Management_Process,2009-03-30 00:00:00+02:00,for credit collection,,send,,,,HUM,
+assess,Admission IC,Sepsis Cases - Event Log,2014-03-11 13:54:26+01:00,ic,,admission,,,,HUM,
+assess,Admission NC,Sepsis Cases - Event Log,2014-10-22 14:13:19+02:00,nc,,admission,,,,HUM,
+assess,CRP,Sepsis Cases - Event Log,2014-10-22 11:27:00+02:00,crp,,,,,,HUM,
+manage,ER Registration,Sepsis Cases - Event Log,2014-10-22 11:15:41+02:00,er,,registration,,,,HUM,
+decide,ER Sepsis Triage,Sepsis Cases - Event Log,2014-10-22 11:34:00+02:00,er sepsis triage,,,,,,HUM,
+decide,ER Triage,Sepsis Cases - Event Log,2014-10-22 11:33:37+02:00,er,,triage,,,,HUM,
+transform,IV Antibiotics,Sepsis Cases - Event Log,2014-10-22 14:03:47+02:00,iv antibiotic,,,,,,HUM,
+transform,IV Liquid,Sepsis Cases - Event Log,2014-10-22 14:03:47+02:00,liquid,,,,,,HUM,
+assess,LacticAcid,Sepsis Cases - Event Log,2014-10-22 11:27:00+02:00,lactic acid,,,,,,HUM,
+assess,Leucocytes,Sepsis Cases - Event Log,2014-10-22 11:27:00+02:00,leucocyte,,,,,,HUM,
+transform,Release A,Sepsis Cases - Event Log,2014-11-02 15:15:00+01:00,a,,release,,,,HUM,
+transform,Release B,Sepsis Cases - Event Log,2014-03-16 01:00:00+01:00,,,release,,,,HUM,
+transform,Release C,Sepsis Cases - Event Log,2014-02-22 13:50:00+01:00,,,release,,,,HUM,
+transform,Release D,Sepsis Cases - Event Log,2014-12-30 10:10:00+01:00,,,release,,,,HUM,
+transform,Release E,Sepsis Cases - Event Log,2014-12-06 23:45:00+01:00,e,,release,,,,HUM,
+move,Return ER,Sepsis Cases - Event Log,2014-07-28 17:36:41+02:00,er,,return,,,,HUM,

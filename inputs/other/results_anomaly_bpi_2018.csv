@@ -1,0 +1,44 @@
+config;log;anomaly type;event1;event2;verb1;verb2;record_conf;anomaly_count
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;finish editing;begin editing;finish;begin;0;35103
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;save;check;save;check;4;5235
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;check;save;save;check;4;1400
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;check;begin editing;check;begin;0;1348
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;begin editing;check;check;begin;0;2052
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;finish preparations;begin preparations;finish;begin;0;2430
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;remove document;insert document;remove;insert;1000;716
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;performed;plan;performed;plan;2;662
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;approve;begin editing;approve;begin;0;366
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;approve;finish editing;finish;approve;2;100
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;decide;plan;decide;plan;0;33
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;prepare offline;begin editing;prepare;begin;0;143
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;begin editing;plan;begin;plan;0;710
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;finish editing;approve;finish;approve;2;53
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;refuse;approve;refuse;approve;2;13
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;save;cancel offline;save;cancel;8;125
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;check;prepare offline;prepare;check;6;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;withdraw;refuse;withdraw;refuse;1000;4
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;begin editing;cancel offline;cancel;begin;0;5
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;begin editing;cancel offline;begin;cancel;0;5
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;approve;refuse;refuse;approve;2;2
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;refuse;withdraw;withdraw;refuse;1000;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;check;decide;check;decide;0;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;prepare offline;check;prepare;check;6;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;cancel offline;begin editing;cancel;begin;0;18
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;cancel offline;begin editing;cancel;begin;0;18
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;performed offline;plan;performed;plan;2;10
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.ORDER;begin editing;prepare offline;begin;prepare;0;16
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;refuse;check;refuse;check;2;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;approve;check;check;approve;4;2
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;cancel offline;save;save;cancel;8;7
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;check;approve;check;approve;4;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;begin editing;create;create;begin;0;21997
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;create;begin editing;create;begin;0;6097
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.XOR;create;prepare offline;prepare;create;6;1
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;performed;plan;performed;plan;2;40759
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;begin editing;prepare offline;begin;prepare;0;42054
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;decide;check;check;decide;0;37409
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;decide;plan;decide;plan;0;40752
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;begin editing;plan;begin;plan;0;40765
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;plan;performed offline;performed;plan;2;1294
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;plan;decide;decide;plan;0;2
+sim_mode:SimMode.SEMANTIC_SIM_sim_thres:0.7_match_one:True_split_loops:True_kb_heuristics:True;BPI_2018.xes;Observation.CO_OCC;check;decide;check;decide;0;1

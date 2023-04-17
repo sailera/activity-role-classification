@@ -1,0 +1,63 @@
+most,least,item:1,item:2,item:3,item:4
+1,4,performed offline occurred before plan,withdraw occurred together with refuse,begin editing occurred before plan,create occurred together with prepare offline
+1,4,performed occurred before plan,approve occurred together with finish editing,save occurred together with check,begin editing occurred without prepare offline
+2,4,remove document occurred before insert document,decide occurred before plan,approve occurred together with check,cancel offline occurred before begin editing
+2,3,finish editing occurred before begin editing,approve occurred before begin editing,save occurred together with cancel offline,plan occurred without performed offline
+3,2,begin editing occurred together with cancel offline,begin editing occurred together with create,performed occurred without plan,begin editing occurred before cancel offline
+2,3,begin editing occurred without plan,finish preparations occurred before begin preparations,refuse occurred together with check,check occurred together with begin editing
+1,2,decide occurred without check,check occurred together with prepare offline,decide occurred without plan,begin editing occurred before prepare offline
+3,1,save occurred together with cancel offline,begin editing occurred together with cancel offline,remove document occurred before insert document,cancel offline occurred before begin editing
+2,1,refuse occurred together with check,begin editing occurred without plan,plan occurred without performed offline,begin editing occurred together with create
+3,4,prepare offline occurred before begin editing,withdraw occurred together with refuse,performed offline occurred before plan,check occurred before decide
+4,1,check occurred together with prepare offline,performed occurred without plan,finish preparations occurred before begin preparations,decide occurred without check
+2,3,begin editing occurred without prepare offline,decide occurred without plan,approve occurred together with check,create occurred together with prepare offline
+3,1,begin editing occurred before cancel offline,finish editing occurred before begin editing,refuse occurred together with approve,begin editing occurred before plan
+4,3,approve occurred together with finish editing,decide occurred before plan,save occurred together with check,approve occurred before begin editing
+2,4,decide occurred without check,remove document occurred before insert document,performed occurred without plan,refuse occurred together with check
+1,2,approve occurred before begin editing,approve occurred together with check,begin editing occurred before plan,decide occurred without plan
+2,3,withdraw occurred together with refuse,finish preparations occurred before begin preparations,begin editing occurred together with create,create occurred together with prepare offline
+4,3,prepare offline occurred before begin editing,begin editing occurred without plan,begin editing occurred without prepare offline,refuse occurred together with approve
+4,2,performed offline occurred before plan,save occurred together with cancel offline,finish editing occurred before begin editing,decide occurred before plan
+4,1,save occurred together with check,begin editing occurred before cancel offline,begin editing occurred before prepare offline,performed occurred before plan
+2,1,check occurred together with prepare offline,cancel offline occurred before begin editing,plan occurred without performed offline,check occurred together with begin editing
+3,2,withdraw occurred together with refuse,refuse occurred together with check,begin editing occurred before cancel offline,save occurred together with cancel offline
+2,1,approve occurred together with check,plan occurred without performed offline,check occurred before decide,save occurred together with check
+3,1,prepare offline occurred before begin editing,begin editing occurred without plan,remove document occurred before insert document,approve occurred before begin editing
+2,3,decide occurred without check,refuse occurred together with approve,performed offline occurred before plan,begin editing occurred together with cancel offline
+3,1,finish editing occurred before begin editing,begin editing occurred before plan,cancel offline occurred before begin editing,finish preparations occurred before begin preparations
+1,3,performed occurred before plan,begin editing occurred before prepare offline,check occurred together with prepare offline,decide occurred without plan
+1,2,performed occurred without plan,begin editing occurred together with create,begin editing occurred without prepare offline,approve occurred together with finish editing
+1,4,cancel offline occurred before begin editing,performed offline occurred before plan,begin editing occurred before cancel offline,begin editing occurred together with create
+1,4,refuse occurred together with approve,decide occurred before plan,check occurred together with begin editing,save occurred together with cancel offline
+2,3,approve occurred together with finish editing,decide occurred without plan,begin editing occurred without prepare offline,begin editing occurred before prepare offline
+2,3,performed occurred before plan,remove document occurred before insert document,check occurred together with prepare offline,begin editing occurred before plan
+1,4,begin editing occurred together with cancel offline,prepare offline occurred before begin editing,check occurred before decide,refuse occurred together with check
+2,3,begin editing occurred without plan,decide occurred without check,create occurred together with prepare offline,finish preparations occurred before begin preparations
+3,1,save occurred together with check,withdraw occurred together with refuse,performed occurred without plan,finish editing occurred before begin editing
+3,2,performed occurred without plan,begin editing occurred together with create,finish editing occurred before begin editing,begin editing occurred without plan
+2,3,withdraw occurred together with refuse,decide occurred without check,begin editing occurred before prepare offline,approve occurred before begin editing
+4,2,finish preparations occurred before begin preparations,save occurred together with check,begin editing occurred together with cancel offline,refuse occurred together with approve
+2,3,cancel offline occurred before begin editing,decide occurred before plan,prepare offline occurred before begin editing,check occurred before decide
+3,2,plan occurred without performed offline,refuse occurred together with check,performed offline occurred before plan,check occurred together with prepare offline
+3,1,check occurred together with begin editing,begin editing occurred without prepare offline,begin editing occurred before cancel offline,remove document occurred before insert document
+3,2,approve occurred together with finish editing,create occurred together with prepare offline,performed occurred before plan,begin editing occurred before plan
+2,4,begin editing occurred before plan,finish preparations occurred before begin preparations,performed occurred before plan,begin editing occurred together with create
+1,2,remove document occurred before insert document,approve occurred together with check,begin editing occurred without plan,prepare offline occurred before begin editing
+2,3,performed offline occurred before plan,decide occurred without check,check occurred together with prepare offline,begin editing occurred before cancel offline
+1,4,cancel offline occurred before begin editing,check occurred before decide,withdraw occurred together with refuse,check occurred together with begin editing
+1,4,decide occurred before plan,save occurred together with cancel offline,approve occurred before begin editing,refuse occurred together with check
+1,2,decide occurred without plan,save occurred together with check,performed occurred without plan,plan occurred without performed offline
+1,2,refuse occurred together with approve,create occurred together with prepare offline,begin editing occurred before prepare offline,approve occurred together with finish editing
+1,2,decide occurred without plan,refuse occurred together with check,check occurred before decide,save occurred together with cancel offline
+2,1,create occurred together with prepare offline,finish editing occurred before begin editing,finish preparations occurred before begin preparations,begin editing occurred without plan
+1,2,performed offline occurred before plan,save occurred together with check,approve occurred together with finish editing,performed occurred without plan
+4,3,begin editing occurred before cancel offline,prepare offline occurred before begin editing,begin editing occurred together with create,approve occurred before begin editing
+2,1,begin editing occurred without prepare offline,remove document occurred before insert document,begin editing occurred together with cancel offline,cancel offline occurred before begin editing
+3,4,begin editing occurred before prepare offline,withdraw occurred together with refuse,decide occurred before plan,check occurred together with begin editing
+1,3,decide occurred without check,performed occurred before plan,approve occurred together with check,plan occurred without performed offline
+3,2,finish preparations occurred before begin preparations,check occurred together with prepare offline,finish editing occurred before begin editing,approve occurred together with finish editing
+3,1,approve occurred together with check,withdraw occurred together with refuse,begin editing occurred before prepare offline,check occurred before decide
+1,2,refuse occurred together with approve,save occurred together with check,approve occurred before begin editing,begin editing occurred together with create
+1,2,begin editing occurred without prepare offline,check occurred together with begin editing,create occurred together with prepare offline,begin editing occurred together with cancel offline
+1,2,decide occurred without plan,refuse occurred together with check,cancel offline occurred before begin editing,save occurred together with cancel offline
+4,3,performed occurred without plan,begin editing occurred before plan,begin editing occurred before cancel offline,performed occurred before plan

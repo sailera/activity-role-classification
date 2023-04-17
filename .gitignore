@@ -1,0 +1,6 @@
+venv*
+cache_dir
+runs
+
+input/logs/*
+!input/logs/place_logs_here.txt
