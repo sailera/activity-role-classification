@@ -1,6 +1,13 @@
 venv*
 cache_dir
 runs
+.idea
+**/__pycache__
+*.ipynb
 
-input/logs/*
-!input/logs/place_logs_here.txt
+inputs/logs/*
+!inputs/logs/place_logs_here.txt
+outputs/preprocessing/*
+!outputs/preprocessing/augmented_logs/augmented_logs_placeholder.txt
+!outputs/preprocessing/preprocessed_logs/preprocessed_logs_placeholder.txt
+!outputs/preprocessing/features/features_placeholder.txt
