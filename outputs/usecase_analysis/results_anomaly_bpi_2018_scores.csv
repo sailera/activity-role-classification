@@ -1,0 +1,32 @@
+violation,severity,type,event1,event2
+refuse occurred together with check,-1.0,XOR,refuse,check
+check occurred together with prepare offline,-0.875,XOR,check,prepare offline
+approve occurred together with check,-0.8571428571428571,XOR,approve,check
+save occurred together with check,-0.7777777777777778,XOR,save,check
+begin editing occurred together with create,-0.7777777777777778,XOR,begin editing,create
+create occurred together with prepare offline,-0.625,XOR,create,prepare offline
+check occurred together with begin editing,-0.5714285714285714,XOR,check,begin editing
+save occurred together with cancel offline,-0.5,XOR,save,cancel offline
+begin editing occurred without prepare offline,-0.375,CO_OCC,begin editing,prepare offline
+prepare offline occurred before begin editing,-0.2857142857142857,ORDER,prepare offline,begin editing
+check occurred before decide,-0.14285714285714285,ORDER,check,decide
+approve occurred together with finish editing,0.0,XOR,approve,finish editing
+begin editing occurred before plan,0.0,ORDER,begin editing,plan
+withdraw occurred together with refuse,0.0,XOR,withdraw,refuse
+begin editing occurred before cancel offline,0.0,ORDER,begin editing,cancel offline
+begin editing occurred before prepare offline,0.0,ORDER,begin editing,prepare offline
+begin editing occurred without plan,0.125,CO_OCC,begin editing,plan
+plan occurred without performed offline,0.14285714285714285,CO_OCC,plan,performed offline
+begin editing occurred together with cancel offline,0.14285714285714285,XOR,begin editing,cancel offline
+finish editing occurred before begin editing,0.25,ORDER,finish editing,begin editing
+performed occurred without plan,0.3333333333333333,CO_OCC,performed,plan
+finish preparations occurred before begin preparations,0.3333333333333333,ORDER,finish preparations,begin preparations
+cancel offline occurred before begin editing,0.3333333333333333,ORDER,cancel offline,begin editing
+performed offline occurred before plan,0.375,ORDER,performed offline,plan
+approve occurred before begin editing,0.5,ORDER,approve,begin editing
+decide occurred without plan,0.625,CO_OCC,decide,plan
+performed occurred before plan,0.625,ORDER,performed,plan
+decide occurred before plan,0.7142857142857143,ORDER,decide,plan
+decide occurred without check,0.75,CO_OCC,decide,check
+remove document occurred before insert document,0.75,ORDER,remove document,insert document
+refuse occurred together with approve,1.0,XOR,refuse,approve

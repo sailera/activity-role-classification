@@ -1,0 +1,626 @@
+concept:name,annotation,pred
+A_Accepted,decide,transform
+A_Cancelled,decide,transform
+A_Complete,transform,transform
+A_Concept,manage,transform
+A_Create Application,create,transform
+A_Denied,decide,transform
+A_Incomplete,transform,transform
+A_Pending,preserve,transform
+A_Submitted,transform,transform
+A_Validating,assess,transform
+O_Accepted,decide,transform
+O_Cancelled,decide,transform
+O_Create Offer,create,transform
+O_Created,create,transform
+O_Refused,decide,transform
+O_Returned,move,transform
+O_Sent (mail and online),move,transform
+O_Sent (online only),move,transform
+W_Assess potential fraud,assess,transform
+W_Call after offers,communicate,transform
+W_Call incomplete files,communicate,transform
+W_Complete application,transform,transform
+W_Handle leads,transform,transform
+W_Personal Loan collection,combine,transform
+W_Shortened completion ,transform,transform
+W_Validate application,assess,transform
+abort external,decide,transform
+abort payment,decide,transform
+approve,decide,transform
+begin admissibility check,assess,transform
+begin editing,transform,transform
+begin editing from refused,transform,transform
+begin payment,transform,transform
+begin preparations,transform,transform
+calculate,combine,transform
+calculate protocol,combine,transform
+cancel offline,decide,transform
+change department,transform,transform
+check,assess,transform
+check admissibility,assess,transform
+clear,transform,transform
+correction GFM17,transform,transform
+create,create,transform
+decide,decide,transform
+discard,destroy,transform
+finish editing,transform,transform
+finish payment,transform,transform
+finish pre-check,assess,transform
+finish preparations,transform,transform
+initialize,transform,transform
+insert document,combine,transform
+mail income,communicate,transform
+mail valid,decide,transform
+performed,transform,transform
+performed offline,transform,transform
+plan,manage,transform
+prepare external,transform,transform
+prepare offline,transform,transform
+refuse,decide,transform
+remove document,destroy,transform
+restart editing,transform,transform
+revoke approval,decide,transform
+revoke decision,decide,transform
+revoke withdrawal,transform,transform
+save,preserve,transform
+take original document,move,transform
+withdraw,move,transform
+MER present,separate,transform
+MER present in supplement,separate,transform
+MER required,assess,transform
+OLO messaging active,assess,transform
+VVGB positive,assess,transform
+WAW permit aspect,transform,transform
+WAW request permanently suspended,transform,transform
+activities regular procedure,transform,transform
+appeal and preliminary injunction in system,transform,transform
+appeal logded,create,transform
+appeal subcase completed,transform,transform
+appealed to higher court,transform,transform
+applicant is stakeholder,transform,transform
+article 33 applies,assess,transform
+article 34  WABO applies,assess,transform
+article 35 applies,assess,transform
+ask stakeholders views,communicate,transform
+assessment of content completed,assess,transform
+by law,assess,transform
+calculate provisional charges,combine,transform
+cancel BAG objects research,decide,transform
+close case,transform,transform
+completed subcases content,transform,transform
+contacting applicant,communicate,transform
+contested decision affected,assess,transform
+continuation term to decision,transform,transform
+continue or abort mutation BAG objects,decide,transform
+coordination of application,manage,transform
+copy decision permanent suspension to stakeholders,create,transform
+copy decision to extend procedure to stakeholders,create,transform
+create continuation letter,create,transform
+create coordination confirmation,create,transform
+create cover letter draft decision,create,transform
+create cover letter extend procedure term,create,transform
+create cover letter permanent suspension,create,transform
+create decision no permit required,create,transform
+create decision procedure term extension,create,transform
+create decision terminate on request,create,transform
+create draft environtmental permit,create,transform
+create forwarding copy,create,transform
+create letter only notification required,create,transform
+create letter requesting missing data,create,transform
+create letter requesting updated plan,create,transform
+create message terminate request,create,transform
+create monitoring case,create,transform
+create procedure confirmation,create,transform
+create publication document,create,transform
+create subcases completeness,create,transform
+create subcases content,create,transform
+create subcases present decision,create,transform
+create subcases submit draft decision,create,transform
+create suspension competent authority,create,transform
+creating cover letter decision,create,transform
+creating cover letter no permit required,create,transform
+creating decision permanently suspended,create,transform
+creating decision procedure term extension,create,transform
+creating decision suspension art. 33 WABO,create,transform
+creating decision suspension art. 34 WABO,create,transform
+creating environmental permit decision,create,transform
+date continuation term to decision,manage,transform
+date decision for inspection,manage,transform
+date draft decision for inspection,manage,transform
+date environmental permit irrevocable,manage,transform
+date for inspection MER,manage,transform
+decided on draft decision environmental permit,decide,transform
+decision date prior to decision,decide,transform
+decision extension procedure term irrevocable,transform,transform
+decision keep permanently suspended,preserve,transform
+decision permanent suspension irrevocable,transform,transform
+decision permanently suspended,transform,transform
+decision procedure term extension,transform,transform
+decision terminate on request,communicate,transform
+detailed procedure applies,assess,transform
+determine cause for suspension article 34 WABO,assess,transform
+dismiss under mandate,destroy,transform
+enrich decision,combine,transform
+enrich draft decision,combine,transform
+enrich draft decision environmental permit,combine,transform
+enter date advice on treatment of environmental permit,preserve,transform
+enter date decision permanent suspension,preserve,transform
+enter date decision procedure term extension,preserve,transform
+enter date decision suspension,preserve,transform
+enter date draft decisionenvironmental permit,preserve,transform
+enter date publication decision environmental permit,preserve,transform
+enter date termination request received,preserve,transform
+enter enddate of suspension,preserve,transform
+enter enddate suspension art. 33 WABO,preserve,transform
+enter objection term permanent suspension,preserve,transform
+enter objectionterm,preserve,transform
+enter publication date draft decision,preserve,transform
+enter receipt of additional data,preserve,transform
+enter senddate acknowledgement,preserve,transform
+enter senddate confirmation request,preserve,transform
+enter senddate continuation,preserve,transform
+enter senddate decision,preserve,transform
+enter senddate decision environmental permit,preserve,transform
+enter senddate decision permanent suspension,preserve,transform
+enter senddate decision procedure term extension,preserve,transform
+enter senddate decision suspension,preserve,transform
+enter senddate draft decision,preserve,transform
+enter senddate letter no permit required,preserve,transform
+enter senddate letter to competent authority,preserve,transform
+enter senddate letter to stakeholders,preserve,transform
+enter senddate party permitted,preserve,transform
+enter senddate procedure confirmation,preserve,transform
+enter senddate procedure term extension,preserve,transform
+enter senddate request termination,preserve,transform
+enter senddate retrieve missing data,preserve,transform
+enter senddate suspension by competent authority,preserve,transform
+enter senddate updated plan,preserve,transform
+entering senddate draft decision environmental permit,preserve,transform
+environmental permit irrevocable,transform,transform
+extend procedure term,transform,transform
+final VVGB applications,transform,transform
+first or second phase,assess,transform
+first phase affected,assess,transform
+forward to the competent authority,move,transform
+forward transcript to stakeholders,move,transform
+generate draft decision environmental permit,create,transform
+generate publication document decision environmental permit,create,transform
+generating decision environmental permit,create,transform
+generating decision no permit required,create,transform
+ground for refusal after reassessment plan,decide,transform
+grounds for refusal,decide,transform
+hearing about draft,communicate,transform
+inform BAG administrator,communicate,transform
+initiative competent authority,create,transform
+injunction made ??by court,create,transform
+investigate BAG objects,assess,transform
+keep permanently suspended,preserve,transform
+message terminate request,communicate,transform
+mutation BAG carry objects,transform,transform
+new decision or reassessment,decide,transform
+no permit needed or only notification needed,decide,transform
+no permit required for application,assess,transform
+objection decision no permit required received,move,transform
+objection lodged against decision,decide,transform
+objection subcase completed,transform,transform
+objection to extension procedure term receptive,transform,transform
+objection to permanent suspension received,move,transform
+objections and preliminary injunction in system,transform,transform
+open draft decision for inspection,create,transform
+partly permit,decide,transform
+partly permit application,decide,transform
+perspective from GS or VROM received,move,transform
+perspective on draft decision environmental permit received,move,transform
+perspective regarding draft founded,decide,transform
+phase activity no permit required,assess,transform
+phase additional information received,move,transform
+phase advice known,preserve,transform
+phase appeal lodged,create,transform
+phase application received,move,transform
+phase application receptive,transform,transform
+phase archived case,preserve,transform
+phase asked additional information,communicate,transform
+phase case handled,manage,transform
+phase concept decision ready,transform,transform
+phase concept draft decision ready,transform,transform
+phase decision irrevocable,transform,transform
+phase decision ready,transform,transform
+phase decision sent,move,transform
+phase decision suspended,decide,transform
+phase decision taken,decide,transform
+phase draft decision made,decide,transform
+phase draft decision ready,transform,transform
+phase draft decision sent,move,transform
+phase forwarded to competent authority,move,transform
+phase objection filed,transform,transform
+phase only notification required,assess,transform
+phase permanently suspended,decide,transform
+phase perspective submitted,transform,transform
+phase procedure aborted,decide,transform
+phase procedure extended,transform,transform
+phase procedure prematurely terminated,decide,transform
+phase procedure resumed,preserve,transform
+phase procedure term resumed,preserve,transform
+phase procedure term suspended,transform,transform
+phase updated plan received,move,transform
+phase updated plan requested,communicate,transform
+phased application,transform,transform
+procedure change,transform,transform
+procedure change after completeness,transform,transform
+publication date draft decision,manage,transform
+publish,create,transform
+publish official draft decision,create,transform
+reactive designation received,move,transform
+read field phased application,assess,transform
+read publication date field,assess,transform
+reason for suspension found,separate,transform
+receive additional information,move,transform
+reception through OLO,move,transform
+record date of decision environmental permit,preserve,transform
+record date of decision no permit required,preserve,transform
+refusal after suspension,decide,transform
+register date decision terminate on request,manage,transform
+register date environmental permit decision,manage,transform
+register deadline,manage,transform
+register number of days extension period,manage,transform
+register objection and appeal periods,manage,transform
+register receipt updated plan,manage,transform
+register submission date request,manage,transform
+register suspension by competent authority,manage,transform
+registration date publication,manage,transform
+registrer date of publishing received request,manage,transform
+regular procedure applies,assess,transform
+regular procedure without MER,transform,transform
+request complete,transform,transform
+request for preliminary injunction received,move,transform
+request further information,communicate,transform
+request to competent authority,communicate,transform
+request updated plan,communicate,transform
+request updated plan again,communicate,transform
+resume completeness subcases,transform,transform
+retrieve missing data,combine,transform
+send confirmation receipt,move,transform
+send confirmation receipt additional data,move,transform
+send continuation letter,move,transform
+send decision suspension,move,transform
+send design decision to stakeholders,move,transform
+send letter in progress,move,transform
+send letter receptive test not ok wait for report firedepartement,move,transform
+send procedure confirmation,move,transform
+send send confirmation competent authority,move,transform
+send suspension by competent authority,move,transform
+set decision phase decision no permit required sent,transform,transform
+set decision phase decision permitting decided,transform,transform
+set decision phase decision permitting published,transform,transform
+set decision phase inspection of decision permitting,transform,transform
+set decision phase no permit required decided,transform,transform
+set decision phase suspension decided,transform,transform
+set decision phase suspension sent,transform,transform
+set decision phase unlicensed irrevocable,transform,transform
+set decision phase: draft decision for inspection,transform,transform
+set decision phase: draft decision permitted sent,transform,transform
+set decision phase: suspension cancelled,transform,transform
+set decision status,transform,transform
+set phase,transform,transform
+set phase decision revoked,transform,transform
+set phase: phase permitting irrevocable,transform,transform
+start WABOprocedure,transform,transform
+start date suspension competent authority,transform,transform
+start decision phase decision permitting sent,transform,transform
+start decision phase extension granted,transform,transform
+start decision phase permanent suspension sent,transform,transform
+start decision phase permanently suspended decided,transform,transform
+start decisionphase draft decision - permitting decided,transform,transform
+start phased application,transform,transform
+stop all running subcases 2b,transform,transform
+stop procedure after permanent suspension,transform,transform
+stop process after terminate on request,transform,transform
+stop suspended completeness subcases,transform,transform
+subcase WAW completed,transform,transform
+subcase art. 33 WABO completed,transform,transform
+subcase art. 34 WABO completed,transform,transform
+subcase designation GS completed,transform,transform
+subcase final VVGB completed,transform,transform
+subcase perspective complete,transform,transform
+subcases completed present decision,transform,transform
+subcases completeness completed,transform,transform
+subcases reassessment plan completed,transform,transform
+subcases submit draft decision completed,transform,transform
+submit decision,transform,transform
+submit draft decision,transform,transform
+suspend term,decide,transform
+suspension ground applicable,decide,transform
+temporary permit,decide,transform
+term 14 or 26 weeks,assess,transform
+term for submitting updated plan,transform,transform
+term for supplying missing data,transform,transform
+term perspective on draft decision,transform,transform
+term to perspective,transform,transform
+terminate on request,transform,transform
+transcript decision environmental permit to stakeholders,transform,transform
+treat appeal subcase,transform,transform
+treat objection subcase,transform,transform
+treat subcase WAW,transform,transform
+treat subcase final VVGB,transform,transform
+treat subcase perspective,transform,transform
+treat subcase suspension art. 33 WABO,transform,transform
+treat subcase suspension art. 34 WABO,transform,transform
+treat subcases completeness,transform,transform
+treat subcases content,transform,transform
+treat subcases present decision,transform,transform
+treat subcases reassessment plan,transform,transform
+treat subcases submit draft decision,transform,transform
+treating subcase designation GS,transform,transform
+updated plan after perspective,transform,transform
+updated plan after review,transform,transform
+updated plan received,transform,transform
+A_ACCEPTED,decide,transform
+A_ACTIVATED,transform,transform
+A_APPROVED,decide,transform
+A_CANCELLED,decide,transform
+A_DECLINED,decide,transform
+A_FINALIZED,transform,transform
+A_PARTLYSUBMITTED,transform,transform
+A_PREACCEPTED,decide,transform
+A_REGISTERED,manage,transform
+A_SUBMITTED,transform,transform
+O_ACCEPTED,decide,transform
+O_CANCELLED,decide,transform
+O_CREATED,create,transform
+O_DECLINED,decide,transform
+O_SELECTED,decide,transform
+O_SENT,move,transform
+O_SENT_BACK,move,transform
+W_Afhandelen leads,manage,transform
+W_Beoordelen fraude,assess,transform
+W_Completeren aanvraag,transform,transform
+W_Nabellen incomplete dossiers,assess,transform
+W_Nabellen offertes,assess,transform
+W_Valideren aanvraag,assess,transform
+W_Wijzigen contractgegevens,transform,transform
+Accepted,decide,transform
+Completed,transform,transform
+Queued,manage,transform
+Unmatched,preserve,transform
+Block Purchase Order Item,transform,transform
+Cancel Goods Receipt,decide,transform
+Cancel Invoice Receipt,decide,transform
+Cancel Subsequent Invoice,decide,transform
+Change Approval for Purchase Order,decide,transform
+Change Currency,transform,transform
+Change Delivery Indicator,transform,transform
+Change Final Invoice Indicator,transform,transform
+Change Price,transform,transform
+Change Quantity,transform,transform
+Change Rejection Indicator,transform,transform
+Change Storage Location,move,transform
+Change payment term,transform,transform
+Clear Invoice,transform,transform
+Create Purchase Order Item,create,transform
+Create Purchase Requisition Item,create,transform
+Delete Purchase Order Item,destroy,transform
+Reactivate Purchase Order Item,transform,transform
+Receive Order Confirmation,move,transform
+Record Goods Receipt,preserve,transform
+Record Invoice Receipt,preserve,transform
+Record Service Entry Sheet,preserve,transform
+Record Subsequent Invoice,preserve,transform
+Release Purchase Order,transform,transform
+Release Purchase Requisition,transform,transform
+Remove Payment Block,destroy,transform
+SRM: Awaiting Approval,preserve,transform
+SRM: Change was Transmitted,move,transform
+SRM: Complete,transform,transform
+SRM: Created,create,transform
+SRM: Deleted,destroy,transform
+SRM: Document Completed,transform,transform
+SRM: Held,preserve,transform
+SRM: In Transfer to Execution Syst.,move,transform
+SRM: Incomplete,transform,transform
+SRM: Ordered,transform,transform
+SRM: Transaction Completed,transform,transform
+SRM: Transfer Failed (E.Sys.),transform,transform
+Set Payment Block,create,transform
+Update Order Confirmation,transform,transform
+Vendor creates debit memo,create,transform
+Vendor creates invoice,create,transform
+Advance catheter,move,transform
+Anatomic identification,separate,transform
+Anesthetize,transform,transform
+Blood return,move,transform
+Check catheter position,assess,transform
+Check flow and reflow,assess,transform
+Check wire in long axis,assess,transform
+Check wire in short axis,assess,transform
+Clean puncture area,transform,transform
+Compression identification,separate,transform
+Cover probe,transform,transform
+Doppler identification,separate,transform
+Drap puncture area,transform,transform
+Drop probe,move,transform
+Gel in probe,transform,transform
+Get in sterile clothes,transform,transform
+Guidewire install,transform,transform
+Hand washing,transform,transform
+Position patient,move,transform
+Position probe,move,transform
+Prepare implements,transform,transform
+Puncture,transform,transform
+Put sterile gel,move,transform
+Remove guidewire,destroy,transform
+Remove syringe,destroy,transform
+Remove trocar,destroy,transform
+Ultrasound configuration,transform,transform
+Widen pathway,transform,transform
+Wire in good position,assess,transform
+Acceptance of requests,decide,transform
+Collateral check,assess,transform
+Collection of documents,combine,transform
+Completeness check,assess,transform
+Credit committee,communicate,transform
+Credit worthiness check,assess,transform
+Register,manage,transform
+Requirements review,assess,transform
+Affected CI Change,transform,transform
+Analysis/Research,assess,transform
+Assignment,manage,transform
+Callback Request,communicate,transform
+Caused By CI,transform,transform
+Closed,transform,transform
+Communication with customer,communicate,transform
+Communication with vendor,communicate,transform
+Contact Change,transform,transform
+Description Update,transform,transform
+Dial-in,communicate,transform
+External Vendor Assignment,manage,transform
+External Vendor Reassignment,manage,transform
+External update,transform,transform
+Impact Change,transform,transform
+Incident reproduction,assess,transform
+Mail to Customer,communicate,transform
+Notify By Change,communicate,transform
+OO Response,communicate,transform
+Open,transform,transform
+Operator Update,transform,transform
+Pending vendor,preserve,transform
+Problem Closure,transform,transform
+Problem Workaround,transform,transform
+Quality Indicator,transform,transform
+Quality Indicator Fixed,transform,transform
+Quality Indicator Set,assess,transform
+Reassignment,manage,transform
+Referred,transform,transform
+Reopen,transform,transform
+Resolved,transform,transform
+Service Change,transform,transform
+Status Change,transform,transform
+Update,transform,transform
+Update from customer,transform,transform
+Urgency Change,transform,transform
+Vendor Reference,assess,transform
+Vendor Reference Change,transform,transform
+alert stage 1,communicate,transform
+BILLED,transform,transform
+CHANGE DIAGN,transform,transform
+CHANGE END,transform,transform
+CODE ERROR,transform,transform
+CODE NOK,transform,transform
+CODE OK,transform,transform
+DELETE,destroy,transform
+EMPTY,preserve,transform
+FIN,transform,transform
+JOIN-PAT,move,transform
+MANUAL,transform,transform
+NEW,create,transform
+REJECT,decide,transform
+RELEASE,transform,transform
+REOPEN,transform,transform
+SET STATUS,transform,transform
+STORNO,decide,transform
+ZDBC_BEHAN,transform,transform
+Declaration APPROVED by ADMINISTRATION,decide,transform
+Declaration APPROVED by BUDGET OWNER,decide,transform
+Declaration APPROVED by PRE_APPROVER,decide,transform
+Declaration APPROVED by SUPERVISOR,decide,transform
+Declaration FINAL_APPROVED by DIRECTOR,decide,transform
+Declaration FINAL_APPROVED by SUPERVISOR,decide,transform
+Declaration REJECTED by ADMINISTRATION,decide,transform
+Declaration REJECTED by BUDGET OWNER,decide,transform
+Declaration REJECTED by DIRECTOR,decide,transform
+Declaration REJECTED by EMPLOYEE,decide,transform
+Declaration REJECTED by MISSING,decide,transform
+Declaration REJECTED by PRE_APPROVER,decide,transform
+Declaration REJECTED by SUPERVISOR,decide,transform
+Declaration SAVED by EMPLOYEE,preserve,transform
+Declaration SUBMITTED by EMPLOYEE,transform,transform
+End trip,transform,transform
+Payment Handled,transform,transform
+Permit APPROVED by ADMINISTRATION,decide,transform
+Permit APPROVED by BUDGET OWNER,decide,transform
+Permit APPROVED by PRE_APPROVER,decide,transform
+Permit APPROVED by SUPERVISOR,decide,transform
+Permit FINAL_APPROVED by DIRECTOR,decide,transform
+Permit FINAL_APPROVED by SUPERVISOR,decide,transform
+Permit FOR_APPROVAL by ADMINISTRATION,transform,transform
+Permit FOR_APPROVAL by SUPERVISOR,transform,transform
+Permit REJECTED by ADMINISTRATION,decide,transform
+Permit REJECTED by BUDGET OWNER,decide,transform
+Permit REJECTED by DIRECTOR,decide,transform
+Permit REJECTED by EMPLOYEE,decide,transform
+Permit REJECTED by MISSING,decide,transform
+Permit REJECTED by PRE_APPROVER,decide,transform
+Permit REJECTED by SUPERVISOR,decide,transform
+Permit SAVED by EMPLOYEE,preserve,transform
+Permit SUBMITTED by EMPLOYEE,transform,transform
+Request For Payment APPROVED by ADMINISTRATION,decide,transform
+Request For Payment APPROVED by BUDGET OWNER,decide,transform
+Request For Payment APPROVED by PRE_APPROVER,decide,transform
+Request For Payment APPROVED by SUPERVISOR,decide,transform
+Request For Payment FINAL_APPROVED by DIRECTOR,decide,transform
+Request For Payment FINAL_APPROVED by SUPERVISOR,decide,transform
+Request For Payment REJECTED by ADMINISTRATION,decide,transform
+Request For Payment REJECTED by BUDGET OWNER,decide,transform
+Request For Payment REJECTED by EMPLOYEE,decide,transform
+Request For Payment REJECTED by MISSING,decide,transform
+Request For Payment REJECTED by PRE_APPROVER,decide,transform
+Request For Payment REJECTED by SUPERVISOR,decide,transform
+Request For Payment SAVED by EMPLOYEE,preserve,transform
+Request For Payment SUBMITTED by EMPLOYEE,transform,transform
+Request Payment,transform,transform
+Send Reminder,communicate,transform
+Start trip,transform,transform
+Confirmation of receipt,transform,transform
+T02 Check confirmation of receipt,assess,transform
+T03 Adjust confirmation of receipt,transform,transform
+T04 Determine confirmation of receipt,assess,transform
+T05 Print and send confirmation of receipt,move,transform
+T06 Determine necessity of stop advice,assess,transform
+T07-1 Draft intern advice aspect 1,create,transform
+T07-2 Draft intern advice aspect 2,create,transform
+T07-3 Draft intern advice hold for aspect 3,create,transform
+T07-4 Draft internal advice to hold for type 4,create,transform
+T07-5 Draft intern advice aspect 5,create,transform
+T08 Draft and send request for advice,create,transform
+T09-1 Process or receive external advice from party 1,transform,transform
+T09-2 Process or receive external advice from party 2,transform,transform
+T09-3 Process or receive external advice from party 3,transform,transform
+T09-4 Process or receive external advice from party 4,transform,transform
+T10 Determine necessity to stop indication,assess,transform
+T11 Create document X request unlicensed,create,transform
+T12 Check document X request unlicensed,assess,transform
+T13 Adjust document X request unlicensed,transform,transform
+T14 Determine document X request unlicensed,assess,transform
+T15 Print document X request unlicensed,create,transform
+T16 Report reasons to hold request,communicate,transform
+T17 Check report Y to stop indication,assess,transform
+T18 Adjust report Y to stop indicition,transform,transform
+T19 Determine report Y to stop indication,assess,transform
+T20 Print report Y to stop indication,create,transform
+Add penalty,combine,transform
+Appeal to Judge,communicate,transform
+Create Fine,create,transform
+Insert Date Appeal to Prefecture,combine,transform
+Insert Fine Notification,combine,transform
+Notify Result Appeal to Offender,communicate,transform
+Payment,transform,transform
+Receive Result Appeal from Prefecture,move,transform
+Send Appeal to Prefecture,move,transform
+Send Fine,move,transform
+Send for Credit Collection,move,transform
+Admission IC,assess,transform
+Admission NC,assess,transform
+CRP,assess,transform
+ER Registration,manage,transform
+ER Sepsis Triage,decide,transform
+ER Triage,decide,transform
+IV Antibiotics,transform,transform
+IV Liquid,transform,transform
+LacticAcid,assess,transform
+Leucocytes,assess,transform
+Release A,transform,transform
+Release B,transform,transform
+Release C,transform,transform
+Release D,transform,transform
+Release E,transform,transform
+Return ER,move,transform
