@@ -1,5 +1,6 @@
 import os
 import pickle
+from tqdm import tqdm
 
 import pandas as pd
 import numpy as np
@@ -77,7 +78,7 @@ def predict_classifier(clf, X, y, df, splits, filename):
     return df_pred['pred']
 
 
-def find_best_params(pipe, X, y, splits, params, filename, random_state=RANDOM_SEED, n_jobs=-1):
+def find_best_params(pipe, X, y, splits, params, filename, random_state=RANDOM_SEED, n_jobs=-1, parallel=True):
     """
     Find the best parameter set (f1_score, average=macro) for a pipeline.
 
@@ -89,6 +90,7 @@ def find_best_params(pipe, X, y, splits, params, filename, random_state=RANDOM_S
     :param filename: str
     :param random_state: int
     :param n_jobs: int
+    :param parallel: bool
     :return: best f1-score, best params
     """
     filepath = os.path.join(FILEPATH_GRIDSEARCH, filename + '.pkl')
@@ -104,7 +106,13 @@ def find_best_params(pipe, X, y, splits, params, filename, random_state=RANDOM_S
             score = f1_score(y, y_pred, average='macro')
             return score, param_set
 
-        results = Parallel(n_jobs=n_jobs, verbose=5)(delayed(_cross_val_predict)(param_set) for param_set in pg)
+        if parallel:
+            results = Parallel(n_jobs=n_jobs, verbose=5)(delayed(_cross_val_predict)(param_set) for param_set in pg)
+        else:
+            results = []
+            for param_set in tqdm(pg):
+                result = _cross_val_predict(param_set)
+                results.append(result)
         pickle.dump(results, open(filepath, 'wb'))
     best_score, best_params = max(results, key=lambda item: item[0])
     return best_score, best_params

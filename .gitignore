@@ -2,8 +2,14 @@ venv*
 cache_dir
 runs
 .idea
+/outputs/models/bert/*
+!/outputs/models/bert/bert_model_placeholder.txt
 **/__pycache__
 *.ipynb
+
+!src/usecase_analysis/conformance.ipynb
+!src/classification/inspection.ipynb
+
 
 inputs/logs/*
 !inputs/logs/place_logs_here.txt

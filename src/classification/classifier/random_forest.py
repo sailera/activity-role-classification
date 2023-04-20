@@ -41,6 +41,10 @@ def evaluate_rfc():
     pipe.set_params(**best_params)
     y_pred = predict_classifier(pipe, X, y, df, splits, 'rfc')
 
+    mask = pipe.named_steps['selector'].fit(X, y).get_support()
+    for i in X.columns[mask]:
+        print(i)
+
     save_figures(y, y_pred, 'rfc')
     print(f1_score(y, y_pred, average='macro'))
 

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import random
-from src.constants import FILEPATH_OTHER_DATA
+from src.constants import FILEPATH_OTHER, FILEPATH_ANNOTATIONS, FILEPATH_USECASE
 
 random.seed(42)
 
@@ -14,7 +14,7 @@ def create_annotation_file(filename):
     :return: Dataframe of the event log to annotate
     """
     # load file to df
-    df = pd.read_csv(os.path.join(FILEPATH_OTHER_DATA, filename + '.csv'), low_memory=False, delimiter=';')
+    df = pd.read_csv(os.path.join(FILEPATH_OTHER, filename + '.csv'), low_memory=False, delimiter=';')
     items = []
     for idx, row in df.iterrows():
         if 'XOR' in row['anomaly type']:
@@ -38,11 +38,11 @@ def create_annotation_file(filename):
     df_tuples = pd.DataFrame(tuples, columns=['item:{0}'.format(i+1) for i in range(4)])
     df_tuples.insert(0, 'least', '', True)
     df_tuples.insert(0, 'most', '', True)
-    df_tuples.to_csv(os.path.join(FILEPATH_OTHER_DATA, filename + '_annotations.csv'), index=False)
+    df_tuples.to_csv(os.path.join(FILEPATH_ANNOTATIONS, filename + '_annotations.csv'), index=False)
 
 
 def compute_scores(filename):
-    df = pd.read_csv(os.path.join(FILEPATH_OTHER_DATA, filename + '_annotations.csv'), low_memory=False)
+    df = pd.read_csv(os.path.join(FILEPATH_ANNOTATIONS, filename + '_annotations.csv'), low_memory=False)
     scores = {}
     for _, row in df.iterrows():
         least_severe = row['least']
@@ -74,9 +74,9 @@ def compute_scores(filename):
         return pd.Series([violation, event1, event2])
 
     df_scores[['type', 'event1', 'event2']] = df_scores['violation'].apply(lambda x: _get_events(x))
-    df_scores.to_csv(os.path.join(FILEPATH_OTHER_DATA, filename + '_scores.csv'), index=False)
+    df_scores.to_csv(os.path.join(FILEPATH_USECASE, filename + '_scores.csv'), index=False)
 
 
 if __name__ == '__main__':
-    #create_annotation_file('results_anomaly_bpi_2018')
+    # create_annotation_file('results_anomaly_bpi_2018')
     compute_scores('results_anomaly_bpi_2018')

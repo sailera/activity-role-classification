@@ -78,18 +78,19 @@ class BertClassifier(BaseEstimator, ClassifierMixin):
 def evaluate_bert():
     X, _, y, splits = load_data()
 
+
     pipe = Pipeline([
         ('ros', OptionalOversampler(random_state=RANDOM_SEED)),
         ('bert', BertClassifier(random_state=RANDOM_SEED))
     ])
     params = {
         'ros__activate': [True, False],
-        'bert__train_batch_size': [16],#[16, 32],
-        'bert__num_train_epochs': [2],#[2, 3, 4],
-        'bert__learning_rate': [5e-5],#[5e-5, 3e-5, 2e-5],
+        'bert__train_batch_size': [16, 32],
+        'bert__num_train_epochs': [2, 3, 4],
+        'bert__learning_rate': [5e-5, 3e-5, 2e-5],
     }
 
-    score, best_params = find_best_params(pipe, X, y, splits, params, 'bert', n_jobs=1)
+    score, best_params = find_best_params(pipe, X, y, splits, params, 'bert', parallel=False)
     print(best_params)
 
     pipe.set_params(**best_params)

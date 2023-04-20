@@ -6,7 +6,7 @@ import numpy as np
 from src.classification.classifier.action_classifier import ActionClassifier
 from src.feature_extraction.embeddings_loader import EmbeddingsLoader, cosine_similarity
 from src.constants import ALL_EVENT_LOG_NAMES, DEFAULT_ACTIVITY_KEY, DEFAULT_CASE_KEY, DEFAULT_EVENT_TIME_KEY, \
-    EVENT_LOG_NAME_KEY, FILEPATH_PREPROCESSED, FILEPATH_FEATURES, ANNOTATION_LABELS, ANNOTATION_KEY, SEMANTIC_ROLES
+    EVENT_LOG_NAME_KEY, FILEPATH_PREPROCESSED, FILEPATH_FEATURES, ANNOTATION_LABELS, SEMANTIC_ROLES
 
 
 class Extractor:

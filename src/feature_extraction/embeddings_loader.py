@@ -23,7 +23,7 @@ class EmbeddingsLoader:
             return None
 
     def _get_reference_vectors(self):
-        reference_vectors = [(action, [self.get(action), *[self.get(ref) for ref in refs if ref is not None]])
+        reference_vectors = [(action, [self.get(action), *[self.get(ref) for ref in refs if self.get(ref) is not None]])
                              for (action, refs) in REFERENCE_ACTIONS]
         return reference_vectors
 

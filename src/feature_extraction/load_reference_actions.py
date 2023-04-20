@@ -40,5 +40,7 @@ def load_reference_actions(include_levin=False) -> list[tuple[str, list[str]]]:
 
 
 if __name__ == '__main__':
-    ref_actions = load_reference_actions()
-    print(ref_actions)
+    ref_actions = load_reference_actions(include_levin=True)
+    for i in ref_actions:
+        if i[0] == 'communicate':
+            print(i[1])\

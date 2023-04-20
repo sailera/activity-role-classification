@@ -42,6 +42,12 @@ def evaluate_svm():
     pipe.set_params(**best_params)
     y_pred = predict_classifier(pipe, X, y, df, splits, 'svc')
 
+    pipe.fit(X, y)
+    X_ = pipe.named_steps['filter'].transform(X)
+    mask = pipe.named_steps['selector'].get_support()
+    for i in X_.columns[mask]:
+        print(i)
+
     save_figures(y, y_pred, 'svc')
     print(f1_score(y, y_pred, average='macro'))
 

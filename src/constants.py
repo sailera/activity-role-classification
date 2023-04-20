@@ -1,5 +1,4 @@
 import os
-import pm4py.util.xes_constants as xes_const
 
 RANDOM_SEED = 42
 
@@ -19,7 +18,7 @@ ANNOTATION_LABELS = ['transform', 'decide', 'assess', 'create', 'move', 'communi
                      'combine', 'separate', 'manage']
 
 # Default keys
-DEFAULT_ACTIVITY_KEY = xes_const.DEFAULT_TRACEID_KEY
+DEFAULT_ACTIVITY_KEY = 'concept:name'
 DEFAULT_CASE_KEY = 'case:' + DEFAULT_ACTIVITY_KEY
 DEFAULT_EVENT_TIME_KEY = 'time:timestamp'
 ANNOTATION_KEY = 'annotation'
@@ -52,7 +51,6 @@ FILEPATH_OTHER = os.path.join(FILEPATH_PROJECT_ROOT, '../inputs/other/')
 
 # Input files
 FILE_ACTIVITY_ROLE_ANNOTATIONS = os.path.join(FILEPATH_ANNOTATIONS, 'activity_roles_annotations.csv')
-FILE_ANOMALIES_ANNOTATIONS = os.path.join(FILEPATH_ANNOTATIONS, 'results_anomaly_bpi_2018_annotations.csv')
 
 ALL_EVENT_LOGS = os.listdir(FILEPATH_LOGS)
 ALL_EVENT_LOGS = [f for f in ALL_EVENT_LOGS if f.endswith('.xes') or f.endswith('.csv')]
@@ -71,3 +69,5 @@ FILEPATH_RESULTS = os.path.join(FILEPATH_PROJECT_ROOT, '../outputs/results/')
 FILEPATH_GRIDSEARCH = os.path.join(FILEPATH_RESULTS, './gridsearch/')
 FILEPATH_PREDICTIONS = os.path.join(FILEPATH_RESULTS, './predictions/')
 FILEPATH_FIGURES = os.path.join(FILEPATH_RESULTS, './figures/')
+
+FILEPATH_USECASE = os.path.join(FILEPATH_PROJECT_ROOT, '../outputs/usecase_analysis')
