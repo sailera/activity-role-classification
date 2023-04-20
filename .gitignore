@@ -9,7 +9,7 @@ runs
 
 !src/usecase_analysis/conformance.ipynb
 !src/classification/inspection.ipynb
-
+!src/usecase_analysis/abstraction.ipynb
 
 inputs/logs/*
 !inputs/logs/place_logs_here.txt
