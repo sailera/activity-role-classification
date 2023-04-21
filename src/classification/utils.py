@@ -131,7 +131,7 @@ def save_figures(y, y_pred, filename):
     plt.figure()
     fig_report = sns.heatmap(pd.DataFrame(report).iloc[:-1, :].T, annot=True, cmap='viridis').get_figure()
     plt.tight_layout()
-    fig_report.savefig(os.path.join(FILEPATH_FIGURES, './classification_report/' + filename + '.png'))
+    fig_report.savefig(os.path.join(FILEPATH_FIGURES, './classification_report/' + filename + '.pdf'))
 
     # change labels to ints
     keys = [ref for ref, _ in load_reference_actions()]
@@ -147,7 +147,7 @@ def save_figures(y, y_pred, filename):
     ax.set_xticklabels(keys, rotation=90)
     ax.set_yticklabels(keys, rotation=0)
     plt.tight_layout()
-    fig_cm.savefig(os.path.join(FILEPATH_FIGURES, './confusion_matrix/' + filename + '.png'))
+    fig_cm.savefig(os.path.join(FILEPATH_FIGURES, './confusion_matrix/' + filename + '.pdf'))
 
 
 class OptionalOversampler(RandomOverSampler):
